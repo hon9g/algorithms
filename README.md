@@ -36,6 +36,7 @@
     - [Missing Integer](https://github.com/minh364/algorithms/blob/master/MissingInteger.py)
     - [Max Counters](https://github.com/minh364/algorithms/blob/master/MaxCounters.py)
 - Prefix Sums
+    - [Passing Cars](https://github.com/minh364/algorithms/blob/master/PassingCars.py)
 - Sorting
 - Stacks and Queues
 - Leader
