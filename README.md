@@ -31,12 +31,12 @@
 - Iterations
 - Arrays
 - Time Complexity
-    - [TapeEquilibrium](https://github.com/minh364/algorithms/blob/master/TapeEquilibrium.py)
+    - [TapeEquilibrium](https://github.com/minh364/algorithms/blob/master/Codility/TapeEquilibrium.py)
 - Counting Elements
-    - [Missing Integer](https://github.com/minh364/algorithms/blob/master/MissingInteger.py)
-    - [Max Counters](https://github.com/minh364/algorithms/blob/master/MaxCounters.py)
+    - [Missing Integer](https://github.com/minh364/algorithms/blob/master/Codility/MissingInteger.py)
+    - [Max Counters](https://github.com/minh364/algorithms/blob/master/Codility/MaxCounters.py)
 - Prefix Sums
-    - [Passing Cars](https://github.com/minh364/algorithms/blob/master/PassingCars.py)
+    - [Passing Cars](https://github.com/minh364/algorithms/blob/master/Codility/PassingCars.py)
 - Sorting
 - Stacks and Queues
 - Leader
