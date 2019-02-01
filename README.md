@@ -41,6 +41,8 @@
     - [Genomic Range Query](https://github.com/minh364/algorithms/blob/master/Codility/GenomicRangeQuery.py)
     - [MinAvgTwoSlice](https://github.com/minh364/algorithms/blob/master/Codility/MinAvgTwoSlice.py)
 6. [Sorting](https://app.codility.com/programmers/lessons/6-sorting/)
+    - [Distinct](https://github.com/minh364/algorithms/blob/master/Codility//Distinct.py)
+    - [MaxProductOfThree](https://github.com/minh364/algorithms/blob/master/Codility/MaxProductOfThree.py)
 7. Stacks and Queues
 8. Leader
 9. Max slice problem
