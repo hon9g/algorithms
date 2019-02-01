@@ -54,11 +54,11 @@
 17. Dynamic programming
 
 # Sort algorithms
-| algorithm | worst | average | 
-| :-------------: | :-------------: | :-------------: | 
-| [Selection sort](https://github.com/minh364/algorithms/blob/master/selectionSort.py) | O(n^2) | 
-| [Quick sort](https://github.com/minh364/algorithms/blob/master/quickSort.py) | O(n^2) | O(n*log n) | 
-| [Merge sort]() | O(n*log n) | 
-
+| algorithm | worst | average | Memory |
+| :-------------: | :-------------: | :-------------: | :-------------: | 
+| [Selection sort](https://github.com/minh364/algorithms/blob/master/Sorting/selectionSort.py) | `O(n**2)` |  |  |
+| [Quick sort](https://github.com/minh364/algorithms/blob/master/Sorting/quickSort.py) | `O(n**2)` | `O(n*log n)` | | 
+| [Merge sort](https://github.com/minh364/algorithms/blob/master/Sorting/mergeSort.py) | `O(n*log n)` |  |  |
+| [Counting Sort]() | `O(n+k)` | | additional `O(k)` |
 - In average, quick sort is faster than merge sort by constant time. 
 - In worst case, quick sort have O(n) size of call stack, and in best O(log n) size.
