@@ -49,10 +49,14 @@ Goal: 가장 작은 부분집합을 포함한 slice 의 시작 원소의 인덱�
 가장 작은 원소가 집합의 평균보다 항상 크기가 작듯이,
 가장 작은 부분집합의 평균은 모집합의 평균보다 항상 크기가 작다.
 
+Every slice must be of size 2 or 3. Slices of bigger sizes are created from such smaller slices. 
+Therefore should any bigger slice have an optimal value, all sub-slices must be the same, for this case to hold true. 
+Should this not be true, one of the sub-slices must be the optimal slice. 
+The others being bigger. 
+Therefore we check all possible slices of size 2/3 and return the smallest one. 
 가장 작은 길이의 부분집합은 2와 3이다.
 짝수의 원소를 갖은 집합은 길이 2의 부분집합으로 충분하지만, 
-홀수 길이의 부분집합을 커버하기 위해 길이 3의 부분집합을 필요로 하다고들 많이 말한다.
-every integer greater than 3 can be expressed as a linear combination of 2 and/or 3.
+홀수 길이의 부분집합을 커버하기 위해 길이 3의 부분집합을 필요로 하다고들한다.
 
 
 (-1+1+(-1)+1)/4 = 0
@@ -65,6 +69,8 @@ every integer greater than 3 can be expressed as a linear combination of 2 and/o
 (1+(-1)+1)/3 = 약 0.6
 (-1+1+(-1))/3 = 약 -0.3
 
+
+array 총 길이가 3일때
 
 길이 2인 slice가 최소 평균:
 (1+0+1)/3 = 약 0.6

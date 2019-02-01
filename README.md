@@ -29,18 +29,18 @@
 [more](https://wiki.python.org/moin/TimeComplexity)
 
 # codility lessons
-1. Iterations
-2. Arrays
-3. Time Complexity
+1. [Iterations](https://app.codility.com/programmers/lessons/1-iterations/)
+2. [Arrays](https://app.codility.com/programmers/lessons/2-arrays/)
+3. [Time Complexity](https://app.codility.com/programmers/lessons/3-time_complexity/)
     - [TapeEquilibrium](https://github.com/minh364/algorithms/blob/master/Codility/TapeEquilibrium.py)
-4. Counting Elements
+4. [Counting Elements](https://app.codility.com/programmers/lessons/4-counting_elements/)
     - [Missing Integer](https://github.com/minh364/algorithms/blob/master/Codility/MissingInteger.py)
     - [Max Counters](https://github.com/minh364/algorithms/blob/master/Codility/MaxCounters.py)
-5. Prefix Sums
+5. [Prefix Sums](https://app.codility.com/programmers/lessons/5-prefix_sums/)
     - [Passing Cars](https://github.com/minh364/algorithms/blob/master/Codility/PassingCars.py)
     - [Genomic Range Query](https://github.com/minh364/algorithms/blob/master/Codility/GenomicRangeQuery.py)
     - [MinAvgTwoSlice](https://github.com/minh364/algorithms/blob/master/Codility/MinAvgTwoSlice.py)
-6. Sorting
+6. [Sorting](https://app.codility.com/programmers/lessons/6-sorting/)
 7. Stacks and Queues
 8. Leader
 9. Max slice problem
