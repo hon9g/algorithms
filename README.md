@@ -4,15 +4,18 @@
 
 # Time complexity of Python built-in Functions
 
+- List
+
 | operation  | example | Big-O |
 | :-------------: | :-------------: | :-------------: |
 | index | `A[i]` | O(1) |
-| slice | `A[a:b]` | O(k) |
+| store | `A[i] = 0` | O(1) |
 | store | `A[i] = 1` | O(1) |
 | get length | `len(A)` | O(1) |
 | append | `A.append(1)` | O(1) |
+| slice | `A[a:b]` | O(k) |
 | pop last one | `A.pop()` | O(1) |
-| pop element i | `A.pop(i)` | O(n) |
+| pop not last one | `A.pop(i)` | O(n) |
 | remove | `A.remove(i)` | O(n) |
 | construction | `list(A)` | O(n) |
 | multiply      | `A*k` | O(n)|
@@ -26,7 +29,8 @@
 
 - `Dictionary.pop(i)` takes O(1)
 
-[more](https://wiki.python.org/moin/TimeComplexity)
+[python wiki; time complexity](https://wiki.python.org/moin/TimeComplexity)
+[UCI- Complexity of Python Operations](https://www.ics.uci.edu/~pattis/ICS-33/lectures/complexitypython.txt)
 
 # codility lessons
 1. [Iterations](https://app.codility.com/programmers/lessons/1-iterations/)
@@ -43,7 +47,8 @@
 6. [Sorting](https://app.codility.com/programmers/lessons/6-sorting/)
     - [Distinct](https://github.com/minh364/algorithms/blob/master/Codility//Distinct.py)
     - [MaxProductOfThree](https://github.com/minh364/algorithms/blob/master/Codility/MaxProductOfThree.py)
-7. Stacks and Queues
+7. [Stacks and Queues](https://app.codility.com/programmers/lessons/7-stacks_and_queues/)
+    -[Brackets](/Brackets.py)
 8. Leader
 9. Max slice problem
 10. Prime and composite numbers
