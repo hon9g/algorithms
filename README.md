@@ -1,8 +1,18 @@
 ### To-do
 - consider various task cases
-- ~~get to know Time complexity of Python built in function~~
+- get to know Time complexity of Python built in function~
 
-# Time complexity of Python built-in Functions
+# Time Complexity
+
+**Expected time complexity** to perform the operation on the `data limit N` within the `time limit of 1 to 10 seconds` is as follows.
+
+|Limit of Data Size | Expected Time Complexity |
+| :-------------: | :-------------: |
+| N <= 1,000,000 | `O(N)` or `O( n *log(n))`|
+| N <= 10,000 | `O(N**2)`|
+| N <= 500 |`O(N**3)`|
+
+## Time complexity of Python built-in Functions
 
 - List
 
@@ -32,7 +42,7 @@
 [python wiki; time complexity](https://wiki.python.org/moin/TimeComplexity)
 [UCI- Complexity of Python Operations](https://www.ics.uci.edu/~pattis/ICS-33/lectures/complexitypython.txt)
 
-# codility lessons
+# Codility Lessons & My solution for each quizzes.
 1. [Iterations](https://app.codility.com/programmers/lessons/1-iterations/)
 2. [Arrays](https://app.codility.com/programmers/lessons/2-arrays/)
 3. [Time Complexity](https://app.codility.com/programmers/lessons/3-time_complexity/)
