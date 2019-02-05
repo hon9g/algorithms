@@ -58,6 +58,7 @@
 6. [Sorting](https://app.codility.com/programmers/lessons/6-sorting/)
     - [Distinct](https://github.com/minh364/algorithms/blob/master/Codility//Distinct.py)
     - [MaxProductOfThree](https://github.com/minh364/algorithms/blob/master/Codility/MaxProductOfThree.py)
+    -[Triangle](/Triangle.py)
 7. [Stacks and Queues](https://app.codility.com/programmers/lessons/7-stacks_and_queues/)
     -[Brackets](https://github.com/minh364/algorithms/blob/master/Codility///Brackets.py)
 8. Leader
