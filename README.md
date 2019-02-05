@@ -44,11 +44,12 @@
     - [Passing Cars](https://github.com/minh364/algorithms/blob/master/Codility/PassingCars.py)
     - [Genomic Range Query](https://github.com/minh364/algorithms/blob/master/Codility/GenomicRangeQuery.py)
     - [MinAvgTwoSlice](https://github.com/minh364/algorithms/blob/master/Codility/MinAvgTwoSlice.py)
+    - [CountDiv](https://github.com/minh364/algorithms/blob/master/Codility///CountDiv.py)
 6. [Sorting](https://app.codility.com/programmers/lessons/6-sorting/)
     - [Distinct](https://github.com/minh364/algorithms/blob/master/Codility//Distinct.py)
     - [MaxProductOfThree](https://github.com/minh364/algorithms/blob/master/Codility/MaxProductOfThree.py)
 7. [Stacks and Queues](https://app.codility.com/programmers/lessons/7-stacks_and_queues/)
-    -[Brackets](/Brackets.py)
+    -[Brackets](https://github.com/minh364/algorithms/blob/master/Codility///Brackets.py)
 8. Leader
 9. Max slice problem
 10. Prime and composite numbers

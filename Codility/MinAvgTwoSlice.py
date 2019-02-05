@@ -6,8 +6,7 @@ array A = { 1. non-empty
             4. average of a slice: (A[P] + A[P+1] + ... + A[Q]) / (Q - P + 1)
             }
 
-Goal: 가장 작은 평균을 갖은 slice의 맨 앞 원소의 index 찾기.
-      Find the *starting position* of a slice whose average is minimal.
+Goal: Find the *starting position* of a slice whose average is minimal.
       Performance should be O(n).
 '''
 
@@ -36,6 +35,48 @@ def bruteForceSolution(A):
             if tmp_score < score:
                 score = tmp_score
                 index = x
+    return index
+
+'''
+Time Complexity: O(n)
+Task Score 100%  Correctness 100%  Performance 100%
+'''
+
+def prefix_sum(A):
+    N = len(A)
+    P = [0]*(N+1)
+    for n in range(1, N+1):
+        P[n] = P[n-1]+A[n-1]
+    return P
+
+
+def avg(P, x, n):
+    print(x, x + n, (P[x + n] - P[x]) / (n))
+    return (P[x + n] - P[x]) / (n)
+
+
+def solution(A):
+    N = len(A)
+    P = prefix_sum(A)
+    print(P)
+    score = 10001
+    index = 0
+
+    for x in range(N - 1):
+        print(x)
+        tmp_score = avg(P, x, 2)
+        if score > tmp_score:
+            score = tmp_score
+            index = x
+    if N == 2:
+        return index
+
+    for x in range(N - 2):
+        tmp_score = avg(P, x, 3)
+        if score > tmp_score:
+            score = tmp_score
+            index = x
+
     return index
 
 '''
@@ -87,46 +128,4 @@ array 총 길이가 3일때
 (-1+1)/2, (1+(-1))/2 = 0 
 
 '''
-
-'''
-Time Complexity: O(n)
-Task Score 100%  Correctness 100%  Performance 100%
-'''
-
-def prefix_sum(A):
-    N = len(A)
-    P = [0]*(N+1)
-    for n in range(1, N+1):
-        P[n] = P[n-1]+A[n-1]
-    return P
-
-
-def avg(P, x, n):
-    print(x, x + n, (P[x + n] - P[x]) / (n))
-    return (P[x + n] - P[x]) / (n)
-
-
-def solution(A):
-    N = len(A)
-    P = prefix_sum(A)
-    print(P)
-    score = 10001
-    index = 0
-
-    for x in range(N - 1):
-        print(x)
-        tmp_score = avg(P, x, 2)
-        if score > tmp_score:
-            score = tmp_score
-            index = x
-    if N == 2:
-        return index
-
-    for x in range(N - 2):
-        tmp_score = avg(P, x, 3)
-        if score > tmp_score:
-            score = tmp_score
-            index = x
-
-    return index
 
