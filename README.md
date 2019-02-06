@@ -36,6 +36,7 @@
 | reverse | `A.reverse()`  | O(n) |
 | quick sort | `A.sort()` `sorted(A)`     | O(n*log n) |
 | min&max | `min(s)`, `max(s)`| O(n) |
+| sum | `sum(l)` | O(n) |
 
 - `Dictionary.pop(i)` takes O(1)
 
@@ -51,6 +52,7 @@ more:
     - [PermMissingElement](https://github.com/minh364/algorithms/blob/master/Codility/PermMissingElem.py)
     - [TapeEquilibrium](https://github.com/minh364/algorithms/blob/master/Codility/TapeEquilibrium.py)
 4. [Counting Elements](https://app.codility.com/programmers/lessons/4-counting_elements/)
+    - [FrogRiverOne](https://github.com/minh364/algorithms/blob/master/Codility/FrogRiverOne.py)
     - [Missing Integer](https://github.com/minh364/algorithms/blob/master/Codility/MissingInteger.py)
     - [Max Counters](https://github.com/minh364/algorithms/blob/master/Codility/MaxCounters.py)
 5. [Prefix Sums](https://app.codility.com/programmers/lessons/5-prefix_sums/)
