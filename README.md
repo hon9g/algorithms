@@ -47,6 +47,8 @@ more:
 1. [Iterations](https://app.codility.com/programmers/lessons/1-iterations/)
 2. [Arrays](https://app.codility.com/programmers/lessons/2-arrays/)
 3. [Time Complexity](https://app.codility.com/programmers/lessons/3-time_complexity/)
+    - [FlogJump](https://github.com/minh364/algorithms/blob/master/Codility/FlogJump.py)
+    - [PermMissingElement](https://github.com/minh364/algorithms/blob/master/Codility/PermMissingElem.py)
     - [TapeEquilibrium](https://github.com/minh364/algorithms/blob/master/Codility/TapeEquilibrium.py)
 4. [Counting Elements](https://app.codility.com/programmers/lessons/4-counting_elements/)
     - [Missing Integer](https://github.com/minh364/algorithms/blob/master/Codility/MissingInteger.py)
