@@ -1,6 +1,6 @@
 ### To-do
 - consider various task cases
-- get to know Time complexity of Python built in function~
+- get to know Time complexity of Python built in function
 
 # Time Complexity
 
@@ -39,8 +39,9 @@
 
 - `Dictionary.pop(i)` takes O(1)
 
-[python wiki; time complexity](https://wiki.python.org/moin/TimeComplexity)
-[UCI- Complexity of Python Operations](https://www.ics.uci.edu/~pattis/ICS-33/lectures/complexitypython.txt)
+more: 
+[python wiki-Time complexity](https://wiki.python.org/moin/TimeComplexity)
+, [UCI- Complexity of Python Operations](https://www.ics.uci.edu/~pattis/ICS-33/lectures/complexitypython.txt)
 
 # Codility Lessons & My solution for each quizzes.
 1. [Iterations](https://app.codility.com/programmers/lessons/1-iterations/)
@@ -58,9 +59,11 @@
 6. [Sorting](https://app.codility.com/programmers/lessons/6-sorting/)
     - [Distinct](https://github.com/minh364/algorithms/blob/master/Codility//Distinct.py)
     - [MaxProductOfThree](https://github.com/minh364/algorithms/blob/master/Codility/MaxProductOfThree.py)
-    -[Triangle](/Triangle.py)
+    - [Triangle](https://github.com/minh364/algorithms/blob/master/Codility//Triangle.py)
+    - [NumberOfDiscIntersections](/NumberOfDiscIntersections.py)
+
 7. [Stacks and Queues](https://app.codility.com/programmers/lessons/7-stacks_and_queues/)
-    -[Brackets](https://github.com/minh364/algorithms/blob/master/Codility///Brackets.py)
+    - [Brackets](https://github.com/minh364/algorithms/blob/master/Codility///Brackets.py)
 8. Leader
 9. Max slice problem
 10. Prime and composite numbers
