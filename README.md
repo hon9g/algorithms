@@ -1,8 +1,14 @@
+##INDEX
+- [Time Complexity](#TimeComplexity)
+- [Sorting algorithms](#Sorting)
+- [Codility Lessons & Solution for each quizzes](#Codility)
+- [Solution for Google KickStart](#KickStart)
+
 ### To-do
 - consider various task cases
 - get to know Time complexity of Python built in function
 
-# Time Complexity
+# TimeComplexity
 
 **Expected time complexity** to perform the operation on the `data limit N` within the `time limit of 1 to 10 seconds` is as follows.
 
@@ -44,7 +50,17 @@ more:
 [python wiki-Time complexity](https://wiki.python.org/moin/TimeComplexity)
 , [UCI- Complexity of Python Operations](https://www.ics.uci.edu/~pattis/ICS-33/lectures/complexitypython.txt)
 
-# Codility Lessons & My solution for each quizzes.
+# Sorting
+| algorithm | worst | average | Memory |
+| :-------------: | :-------------: | :-------------: | :-------------: | 
+| [Selection sort](https://github.com/minh364/algorithms/blob/master/Sorting/selectionSort.py) | `O(n**2)` |  |  |
+| [Quick sort](https://github.com/minh364/algorithms/blob/master/Sorting/quickSort.py) | `O(n**2)` | `O(n*log n)` | | 
+| [Merge sort](https://github.com/minh364/algorithms/blob/master/Sorting/mergeSort.py) | `O(n*log n)` |  |  |
+| [Counting Sort]() | `O(n+k)` | | additional `O(k)` |
+- In average, quick sort is faster than merge sort by constant time. 
+- In worst case, quick sort have O(n) size of call stack, and in best O(log n) size.
+
+# Codility
 1. [Iterations](https://app.codility.com/programmers/lessons/1-iterations/)
 2. [Arrays](https://app.codility.com/programmers/lessons/2-arrays/)
 3. [Time Complexity](https://app.codility.com/programmers/lessons/3-time_complexity/)
@@ -56,18 +72,18 @@ more:
     - [Missing Integer](https://github.com/minh364/algorithms/blob/master/Codility/MissingInteger.py)
     - [Max Counters](https://github.com/minh364/algorithms/blob/master/Codility/MaxCounters.py)
 5. [Prefix Sums](https://app.codility.com/programmers/lessons/5-prefix_sums/)
-    - [Passing Cars](https://github.com/minh364/algorithms/blob/master/Codility/PassingCars.py)
-    - [Genomic Range Query](https://github.com/minh364/algorithms/blob/master/Codility/GenomicRangeQuery.py)
+    - [PassingCars](https://github.com/minh364/algorithms/blob/master/Codility/PassingCars.py)
+    - [GenomicRangeQuery](https://github.com/minh364/algorithms/blob/master/Codility/GenomicRangeQuery.py)
     - [MinAvgTwoSlice](https://github.com/minh364/algorithms/blob/master/Codility/MinAvgTwoSlice.py)
-    - [CountDiv](https://github.com/minh364/algorithms/blob/master/Codility///CountDiv.py)
+    - [CountDiv](https://github.com/minh364/algorithms/blob/master/Codility/CountDiv.py)
 6. [Sorting](https://app.codility.com/programmers/lessons/6-sorting/)
-    - [Distinct](https://github.com/minh364/algorithms/blob/master/Codility//Distinct.py)
+    - [Distinct](https://github.com/minh364/algorithms/blob/master/Codility/Distinct.py)
     - [MaxProductOfThree](https://github.com/minh364/algorithms/blob/master/Codility/MaxProductOfThree.py)
-    - [Triangle](https://github.com/minh364/algorithms/blob/master/Codility//Triangle.py)
+    - [Triangle](https://github.com/minh364/algorithms/blob/master/Codility/Triangle.py)
     - [NumberOfDiscIntersections](/NumberOfDiscIntersections.py)
 
 7. [Stacks and Queues](https://app.codility.com/programmers/lessons/7-stacks_and_queues/)
-    - [Brackets](https://github.com/minh364/algorithms/blob/master/Codility///Brackets.py)
+    - [Brackets](https://github.com/minh364/algorithms/blob/master/Codility/Brackets.py)
 8. Leader
 9. Max slice problem
 10. Prime and composite numbers
@@ -79,12 +95,8 @@ more:
 16. Greedy algorithms
 17. Dynamic programming
 
-# Sort algorithms
-| algorithm | worst | average | Memory |
-| :-------------: | :-------------: | :-------------: | :-------------: | 
-| [Selection sort](https://github.com/minh364/algorithms/blob/master/Sorting/selectionSort.py) | `O(n**2)` |  |  |
-| [Quick sort](https://github.com/minh364/algorithms/blob/master/Sorting/quickSort.py) | `O(n**2)` | `O(n*log n)` | | 
-| [Merge sort](https://github.com/minh364/algorithms/blob/master/Sorting/mergeSort.py) | `O(n*log n)` |  |  |
-| [Counting Sort]() | `O(n+k)` | | additional `O(k)` |
-- In average, quick sort is faster than merge sort by constant time. 
-- In worst case, quick sort have O(n) size of call stack, and in best O(log n) size.
+# KickStart
+- 2019
+    - Practice round
+        - [Number Guessing](https://github.com/minh364/algorithms/blob/master/kickStart/)
+        - [Mural](https://github.com/minh364/algorithms/blob/master/kickStart/)
