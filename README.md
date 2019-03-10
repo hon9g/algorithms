@@ -1,8 +1,8 @@
-##INDEX
-- [Time Complexity](#TimeComplexity)
-- [Sorting algorithms](#Sorting)
-- [Codility Lessons & Solution for each quizzes](#Codility)
-- [Solution for Google KickStart](#KickStart)
+## INDEX
+1. [**Time Complexity**](#TimeComplexity)
+2. [**Sorting algorithms**](#Sorting)
+3. [**Codility Lessons & Solution for each quizzes**](#Codility)
+4. [**Solution for Google KickStart**](#KickStart)
 
 ### To-do
 - consider various task cases
@@ -84,7 +84,8 @@ more:
 
 7. [Stacks and Queues](https://app.codility.com/programmers/lessons/7-stacks_and_queues/)
     - [Brackets](https://github.com/minh364/algorithms/blob/master/Codility/Brackets.py)
-8. Leader
+8. [Leader](https://codility.com/media/train/6-Leader.pdf)
+    - [Dominator](https://github.com/minh364/algorithms/blob/master/Codility/Dominator.py)
 9. Max slice problem
 10. Prime and composite numbers
 11. Sieve of Eratosthenes
