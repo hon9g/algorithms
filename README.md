@@ -86,6 +86,7 @@ more:
     - [Brackets](https://github.com/minh364/algorithms/blob/master/Codility/Brackets.py)
 8. [Leader](https://codility.com/media/train/6-Leader.pdf)
     - [Dominator](https://github.com/minh364/algorithms/blob/master/Codility/Dominator.py)
+    - [EquiLeader](https://github.com/minh364/algorithms/blob/master/Codility/EquiLeader.py)
 9. Max slice problem
 10. Prime and composite numbers
 11. Sieve of Eratosthenes
