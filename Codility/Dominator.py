@@ -29,9 +29,6 @@ def solution(A):
             stack += [A[i]]
         else:
             stack.pop()
-        # print(stack)
-    if stack == []:
-        return -1
     count = 0
     for i in range(n):
         if stack[-1] == A[i]:
