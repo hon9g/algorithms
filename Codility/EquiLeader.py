@@ -1,6 +1,10 @@
 """
 [Task description & result of this solution](https://app.codility.com/demo/results/trainingJRZPP6-545/)
 
+Task Score 100%
+Correctness 100%
+Performance 100%
+
 **Note**
 - Use stack for finding leader.
 - Use prefix sum to count the number of leaders in a sub-sequence and make it easier to compare.

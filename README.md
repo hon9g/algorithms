@@ -81,21 +81,21 @@ more:
     - [MaxProductOfThree](https://github.com/minh364/algorithms/blob/master/Codility/MaxProductOfThree.py)
     - [Triangle](https://github.com/minh364/algorithms/blob/master/Codility/Triangle.py)
     - [NumberOfDiscIntersections](/NumberOfDiscIntersections.py)
-
 7. [Stacks and Queues](https://app.codility.com/programmers/lessons/7-stacks_and_queues/)
     - [Brackets](https://github.com/minh364/algorithms/blob/master/Codility/Brackets.py)
-8. [Leader](https://codility.com/media/train/6-Leader.pdf)
+8. [Leader](https://app.codility.com/programmers/lessons/8-leader/)
     - [Dominator](https://github.com/minh364/algorithms/blob/master/Codility/Dominator.py)
     - [EquiLeader](https://github.com/minh364/algorithms/blob/master/Codility/EquiLeader.py)
-9. Max slice problem
-10. Prime and composite numbers
-11. Sieve of Eratosthenes
-12. Euclidean algorithm
-13. Fibonacci numbers
-14. Binary search algorithm
-15. Caterpillar method
-16. Greedy algorithms
-17. Dynamic programming
+9. [Max slice problem](https://app.codility.com/programmers/lessons/9-maximum_slice_problem/)
+    - [MaxProfit](MaxProfit.py)
+10. [Prime and composite numbers](https://app.codility.com/programmers/lessons/10-prime_and_composite_numbers/)
+11. [Sieve of Eratosthenes](https://app.codility.com/programmers/lessons/11-sieve_of_eratosthenes/)
+12. [Euclidean algorithm](https://app.codility.com/programmers/lessons/12-euclidean_algorithm/)
+13. [Fibonacci numbers](https://app.codility.com/programmers/lessons/13-fibonacci_numbers/)
+14. [Binary search algorithm](https://app.codility.com/programmers/lessons/14-binary_search_algorithm/)
+15. [Caterpillar method](https://app.codility.com/programmers/lessons/15-caterpillar_method/)
+16. [Greedy algorithms](https://app.codility.com/programmers/lessons/16-greedy_algorithms/)
+17. [Dynamic programming](https://app.codility.com/programmers/lessons/17-dynamic_programming/)
 
 # KickStart
 - 2019
