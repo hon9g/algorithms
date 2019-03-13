@@ -82,6 +82,7 @@ more:
     - [Triangle](https://github.com/minh364/algorithms/blob/master/Codility/Triangle.py)
     - [NumberOfDiscIntersections](/NumberOfDiscIntersections.py)
 7. [Stacks and Queues](https://app.codility.com/programmers/lessons/7-stacks_and_queues/)
+    - [Fish](https://github.com/minh364/algorithms/blob/master/Codility/Fish.py)
     - [Brackets](https://github.com/minh364/algorithms/blob/master/Codility/Brackets.py)
 8. [Leader](https://app.codility.com/programmers/lessons/8-leader/)
     - [Dominator](https://github.com/minh364/algorithms/blob/master/Codility/Dominator.py)
