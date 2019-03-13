@@ -89,6 +89,7 @@ more:
 9. [Max slice problem](https://app.codility.com/programmers/lessons/9-maximum_slice_problem/)
     - [MaxProfit](https://github.com/minh364/algorithms/blob/master/Codility/MaxProfit.py)
     - [MaxSliceSum](https://github.com/minh364/algorithms/blob/master/Codility/MaxSliceSum.py)
+    - [MaxDoubleSliceSum](https://github.com/minh364/algorithms/blob/master/Codility/MaxDoubleSliceSum.py)
 10. [Prime and composite numbers](https://app.codility.com/programmers/lessons/10-prime_and_composite_numbers/)
 11. [Sieve of Eratosthenes](https://app.codility.com/programmers/lessons/11-sieve_of_eratosthenes/)
 12. [Euclidean algorithm](https://app.codility.com/programmers/lessons/12-euclidean_algorithm/)
