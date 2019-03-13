@@ -10,9 +10,9 @@ Performance 100%
 def solution(A):
     """
     :param A: An array A consisting of N integers is given.
-        - each element of array A is an integer within the range [0..200,000].
+        - Each element of array A is an integer within the range [0..200,000].
+          Daily prices of a stock share for a period of N consecutive days;
         - N: An integer within the range [0..400,000];
-             daily prices of a stock share for a period of N consecutive days;
 
     :return: An Integer which is maximum possible profit from one transaction.
               If it was impossible to gain any profit return 0.
