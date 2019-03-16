@@ -84,6 +84,7 @@ more:
 7. [Stacks and Queues](https://app.codility.com/programmers/lessons/7-stacks_and_queues/)
     - [Fish](https://github.com/minh364/algorithms/blob/master/Codility/Fish.py)
     - [Brackets](https://github.com/minh364/algorithms/blob/master/Codility/Brackets.py)
+    -[Nesting](https://github.com/minh364/algorithms/blob/master/Codility/Nesting.py)
 8. [Leader](https://app.codility.com/programmers/lessons/8-leader/)
     - [Dominator](https://github.com/minh364/algorithms/blob/master/Codility/Dominator.py)
     - [EquiLeader](https://github.com/minh364/algorithms/blob/master/Codility/EquiLeader.py)

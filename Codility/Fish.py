@@ -2,8 +2,8 @@
 [Task description & result of this solution](https://app.codility.com/demo/results/trainingYSCJNK-FHP/)
 """
 def solution(A, B):
-    """
-    Score 100%
+    """Score 100%   Detected time complexity: O(N)
+
     Two non-empty arrays A and B consisting of N integers.
     Arrays A and B represent N voracious fish in a river,
     ordered downstream along the flow of the river
