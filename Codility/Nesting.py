@@ -1,4 +1,5 @@
 """Note
+[Task description & result of this solution](https://app.codility.com/demo/results/training2AHC2W-JQ3/)
 I used a simple idea that just came up after read the problem.
 
 
