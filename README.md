@@ -95,6 +95,7 @@ more:
     - [MaxDoubleSliceSum](https://github.com/minh364/algorithms/blob/master/Codility/MaxDoubleSliceSum.py)
 10. [Prime and composite numbers](https://app.codility.com/programmers/lessons/10-prime_and_composite_numbers/)
     - [CountFactors](https://github.com/minh364/algorithms/blob/master/Codility/CountFactors.py)
+    - [MinPerimeterRectangle](https://github.com/minh364/algorithms/blob/master/Codility/MinPerimeterRectangle.py)
 11. [Sieve of Eratosthenes](https://app.codility.com/programmers/lessons/11-sieve_of_eratosthenes/)
 12. [Euclidean algorithm](https://app.codility.com/programmers/lessons/12-euclidean_algorithm/)
 13. [Fibonacci numbers](https://app.codility.com/programmers/lessons/13-fibonacci_numbers/)

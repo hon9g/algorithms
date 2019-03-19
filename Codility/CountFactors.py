@@ -24,12 +24,12 @@ def solution(N):
     :param N: A positive Integer within the range [1..2,147,483,647].
     :return: The number of N's factors.
     """
-    result = 0
+    factors = 0
     for i in range(1, N):
         if i*i >= N:
             if i*i == N:
-                result += 1
+                factors += 1
             break
         if N % i == 0:
-            result += 2
-    return result
+            factors += 2
+    return factors
