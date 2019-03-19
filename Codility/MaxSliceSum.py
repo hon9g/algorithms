@@ -1,5 +1,5 @@
 """Note
-[Task description & result of this solution](https://app.codility.com/demo/results/trainingVFHZJW-Y9B/)
+[Task description & result of this solution](https://app.codility.com/demo/results/training2EHDG4-BUW/)
 I wrote an algorithm that works well with input values ​​that contain positive numbers, and
 I modified it slightly to work well when input values ​​consisting of only negative numbers come in.
 """
