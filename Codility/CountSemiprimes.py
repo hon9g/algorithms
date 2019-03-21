@@ -1,12 +1,7 @@
-"""Note
-[Task description & result of this solution](https://app.codility.com/demo/results/training882UTH-H3B/)
-
-I need to retry for better performance soon.
-"""
 def is_prime(N):
     """
     Args:
-        N(int):
+        N(int): Maximum number that should care.
     Returns:
         list of bool: If prime then True, If not then False.
     """
@@ -45,24 +40,78 @@ def solution(N, P, Q):
     prime_flags = is_prime(N)
     num_prime_dividers = [0] * (N + 1)
     prime = 2
-    while prime**2 <= N:
+
+    while prime**2 <= N+1:
         if prime_flags[prime]:
-            one_more_prime = prime
-            while one_more_prime*2 <= N:
-                if prime * one_more_prime > N:
-                    break
-                if prime_flags[one_more_prime]:
-                    num_prime_dividers[prime*one_more_prime] += 2
-                one_more_prime += 1
+            num_prime_dividers[prime*prime] += 2
+            prime2 = N//prime
+            while prime2 > prime:
+                if prime_flags[prime2]:
+                    num_prime_dividers[prime2*prime] += 2
+                prime2 += -1
         prime += 1
-    print(num_prime_dividers, prime, one_more_prime)
+
+    pref_answers = [0] * (N + 1)
+    for i in range(4, N+1):
+        pref_answers[i] = pref_answers[i - 1]
+        if num_prime_dividers[i] == 2:
+            pref_answers[i] += 1
+
     answers = []
+    for k in range(len(P)):
+        answer = pref_answers[Q[k]] - pref_answers[P[k]-1]
+        answers += [answer]
+    return answers
+
+
+'''
+"""Note
+[Test result](https://app.codility.com/demo/results/training882UTH-H3B/)
+[Test result](https://app.codility.com/demo/results/trainingQAAK3X-898/)
+I got 66/100 points in two attempts,
+with 100 point of Correctness  and 40 points in Performance.
+Detected TimeComplexity was so complex:
+O(N * log(log(N)) + M * N) or O(M * N ** (3/2))
+In the second attempt, I tried to do the logic used in the first try a little more precisely.
+Here are where were changed in the second attempt.
+
+    prime = 2
+        while prime**2 <= N+1:
+            if prime_flags[prime]:
+                num_prime_dividers[prime*prime] += 2
+                prime2 = N//prime
+                while prime2 > prime:
+                    if prime_flags[prime2]:
+                        num_prime_dividers[prime2*prime] += 2
+                    prime2 += -1
+            prime += 1
+
+[Test result](https://app.codility.com/demo/results/trainingTNQ9GE-T3H/)
+In the third attempt, got Task Score 100%  Correctness 100%  
+Detected Performance was O(N * log(log(N)) + M)
+
+I did not really change main logic. 
+
+Looking at the time complexities detected in previous attempts, 
+I found that the issue was inside of k times repetition of P and Q array to make the final answer.
+
+# This part
     for k in range(len(P)):
         cnt_semiprime = 0
         for i in range(P[k],Q[k]+1):
             if num_prime_dividers[i] == 2:
-                cnt_semiprime += 1
-        answers += [cnt_semiprime]
-    return answers
 
-print(solution(10, [1], [10]))
+I was using the prefix sum to fix the code so that it will end in k times when I get the final answer.
+
+    pref_answers = [0] * (N + 1)
+    for i in range(4, N+1):
+        pref_answers[i] = pref_answers[i - 1]
+        if num_prime_dividers[i] == 2:
+            pref_answers[i] += 1
+            
+    answers = []
+    for k in range(len(P)):
+        answer = pref_answers[Q[k]] - pref_answers[P[k]-1]
+        answers += [answer]
+    return answers
+'''
