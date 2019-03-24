@@ -1,3 +1,4 @@
+
 def solution(M,N):
     """
     Args:
@@ -6,10 +7,16 @@ def solution(M,N):
             M과 N은 10000이하의 자연수.
     Returns: None
         but print 2 line of int:
-            line 1 -> M이상 N 이하 자연수 중 완전제곱수인 수들의 합
-            line 2 -> 그 중 최솟값.
+            line 1 : M이상 N 이하 자연수 중 완전제곱수인 수들의 합
+            line 2: 그 중 최솟값.
 
-            만약 완전제곱수가 없다면 -1 출력.
+            만약 완전제곱수가 없다면 line1: -1 출력.
+
+    >>> solution(60, 100)
+    245
+    64
+    >>> solution(75, 80)
+    -1
     """
 
     n = 1
@@ -30,7 +37,13 @@ def solution(M,N):
 
 from math import sqrt
 def solution_sqrt(M,N):
-    # math lib를 사용한다면
+    """
+    >>> solution_sqrt(60, 100)
+    245
+    64
+    >>> solution_sqrt(75, 80)
+    -1
+    """
     a = int(sqrt(M))
     b = int(sqrt(N))
 
@@ -48,12 +61,18 @@ def solution_sqrt(M,N):
     print(min_square)
     return None
 
-if __name__ == '__main__':
-    M = int(input())
-    N = int(input())
-    solution_sqrt(M,N)
-
+def test():
+    import doctest
+    doctest.testmod()
+    # examples
     solution(60, 100)
     solution(75, 80)
     solution_sqrt(60, 100)
     solution_sqrt(75, 80)
+
+
+if __name__ == '__main__':
+    test()
+    # M = int(input())
+    # N = int(input())
+    # solution_sqrt(M, N)
