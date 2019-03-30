@@ -6,17 +6,13 @@ def binomial(n, k):
     Returns:
         int: 이항계수 nCk 의 값
     """
-    if n == k or k == 0:
-        return 1
-    molecule = 1
-    for i in range(1, n+1):
-        molecule *= i
-    denominator = 1
-    for i in range(1,k+1):
-        denominator *= i
-    for i in range(1,n-k+1):
-        denominator *= i
-    return molecule//denominator
+    result = 1
+    for i in range(k):
+        result *= n
+        n += -1
+    for i in range(1, k+1):
+        result = result // i
+    return result
 
 import unittest
 class test(unittest.TestCase):
