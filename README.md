@@ -1,12 +1,15 @@
 ## INDEX
-1. [**Time Complexity**](#TimeComplexity)
-2. [**Sorting algorithms**](#Sorting)
-3. [**Codility Lessons & Solution for each quizzes**](#Codility)
-4. [**Solution for Google KickStart**](#KickStart)
+1. **Time Complexity**
+    - Of **Python built in function** [go](#TimeComplexity)
+    - Of **Sorting algorithms** [go](#Sorting)
+2. Solutions for programming problems
+    - **Codility** [solutions](/Codility/README.md)
+    - **Google KickStart** [solutions](kickStart/README.md)
+    - **BOJ** :kr: [solutions](BOJ/README.md)
 
-### To-do
-- consider various task cases
-- get to know Time complexity of Python built in function
+### To-Do
+- Consider various task cases
+- Get to know Time complexity of Python built in function
 
 # TimeComplexity
 
@@ -30,6 +33,7 @@
 | get length | `len(A)` | O(1) |
 | append | `A.append(1)` | O(1) |
 | slice | `A[a:b]` | O(k) |
+| extend | `A.extend(K)` `A += K` `A = A + K`| O(k)| 
 | pop last one | `A.pop()` | O(1) |
 | pop not last one | `A.pop(i)` | O(n) |
 | remove | `A.remove(i)` | O(n) |
@@ -44,11 +48,17 @@
 | min&max | `min(s)`, `max(s)`| O(n) |
 | sum | `sum(l)` | O(n) |
 
+- If we want to add an element at the **end of a list**, we should use `append`. It is faster and direct.
+- If we want to add an element **somewhere within a list**, we should use `insert`. It is the only option for this.
+- If we want to **combine** the elements of another iterable to our list, then we should use `extend`.
+
+
 - `Dictionary.pop(i)` takes O(1)
 
 more: 
 [python wiki-Time complexity](https://wiki.python.org/moin/TimeComplexity)
 , [UCI- Complexity of Python Operations](https://www.ics.uci.edu/~pattis/ICS-33/lectures/complexitypython.txt)
+[append vs insert vs extend](https://stackabuse.com/append-vs-extend-in-python-lists/)
 
 # Sorting
 | algorithm | worst | average | Memory |
@@ -60,54 +70,3 @@ more:
 - In average, quick sort is faster than merge sort by constant time. 
 - In worst case, quick sort have O(n) size of call stack, and in best O(log n) size.
 
-# Codility
-1. [Iterations](https://app.codility.com/programmers/lessons/1-iterations/)
-2. [Arrays](https://app.codility.com/programmers/lessons/2-arrays/)
-3. [Time Complexity](https://app.codility.com/programmers/lessons/3-time_complexity/)
-    - [FlogJump](https://github.com/minh364/algorithms/blob/master/Codility/FlogJump.py)
-    - [PermMissingElement](https://github.com/minh364/algorithms/blob/master/Codility/PermMissingElem.py)
-    - [TapeEquilibrium](https://github.com/minh364/algorithms/blob/master/Codility/TapeEquilibrium.py)
-4. [Counting Elements](https://app.codility.com/programmers/lessons/4-counting_elements/)
-    - [FrogRiverOne](https://github.com/minh364/algorithms/blob/master/Codility/FrogRiverOne.py)
-    - [Missing Integer](https://github.com/minh364/algorithms/blob/master/Codility/MissingInteger.py)
-    - [Max Counters](https://github.com/minh364/algorithms/blob/master/Codility/MaxCounters.py)
-5. [Prefix Sums](https://app.codility.com/programmers/lessons/5-prefix_sums/)
-    - [PassingCars](https://github.com/minh364/algorithms/blob/master/Codility/PassingCars.py)
-    - [GenomicRangeQuery](https://github.com/minh364/algorithms/blob/master/Codility/GenomicRangeQuery.py)
-    - [MinAvgTwoSlice](https://github.com/minh364/algorithms/blob/master/Codility/MinAvgTwoSlice.py)
-    - [CountDiv](https://github.com/minh364/algorithms/blob/master/Codility/CountDiv.py)
-6. [Sorting](https://app.codility.com/programmers/lessons/6-sorting/)
-    - [Distinct](https://github.com/minh364/algorithms/blob/master/Codility/Distinct.py)
-    - [MaxProductOfThree](https://github.com/minh364/algorithms/blob/master/Codility/MaxProductOfThree.py)
-    - [Triangle](https://github.com/minh364/algorithms/blob/master/Codility/Triangle.py)
-    - [NumberOfDiscIntersections](/NumberOfDiscIntersections.py)
-7. [Stacks and Queues](https://app.codility.com/programmers/lessons/7-stacks_and_queues/)
-    - [Fish](https://github.com/minh364/algorithms/blob/master/Codility/Fish.py)
-    - [Brackets](https://github.com/minh364/algorithms/blob/master/Codility/Brackets.py)
-    - [Nesting](https://github.com/minh364/algorithms/blob/master/Codility/Nesting.py)
-    - [StoneWall](https://github.com/minh364/algorithms/blob/master/Codility/StoneWall.py)
-8. [Leader](https://app.codility.com/programmers/lessons/8-leader/)
-    - [Dominator](https://github.com/minh364/algorithms/blob/master/Codility/Dominator.py)
-    - [EquiLeader](https://github.com/minh364/algorithms/blob/master/Codility/EquiLeader.py)
-9. [Max slice problem](https://app.codility.com/programmers/lessons/9-maximum_slice_problem/)
-    - [MaxProfit](https://github.com/minh364/algorithms/blob/master/Codility/MaxProfit.py)
-    - [MaxSliceSum](https://github.com/minh364/algorithms/blob/master/Codility/MaxSliceSum.py)
-    - [MaxDoubleSliceSum](https://github.com/minh364/algorithms/blob/master/Codility/MaxDoubleSliceSum.py)
-10. [Prime and composite numbers](https://app.codility.com/programmers/lessons/10-prime_and_composite_numbers/)
-    - [CountFactors](https://github.com/minh364/algorithms/blob/master/Codility/CountFactors.py)
-    - [MinPerimeterRectangle](https://github.com/minh364/algorithms/blob/master/Codility/MinPerimeterRectangle.py)
-    - Flags[(solution)](https://github.com/minh364/algorithms/blob/master/Codility/Flags.py)
-11. [Sieve of Eratosthenes](https://app.codility.com/programmers/lessons/11-sieve_of_eratosthenes/)
-    - CountSemiprimes[(solution)](https://github.com/minh364/algorithms/blob/master/Codility/CountSemiprimes.py)
-12. [Euclidean algorithm](https://app.codility.com/programmers/lessons/12-euclidean_algorithm/)
-13. [Fibonacci numbers](https://app.codility.com/programmers/lessons/13-fibonacci_numbers/)
-14. [Binary search algorithm](https://app.codility.com/programmers/lessons/14-binary_search_algorithm/)
-15. [Caterpillar method](https://app.codility.com/programmers/lessons/15-caterpillar_method/)
-16. [Greedy algorithms](https://app.codility.com/programmers/lessons/16-greedy_algorithms/)
-17. [Dynamic programming](https://app.codility.com/programmers/lessons/17-dynamic_programming/)
-
-# KickStart
-- 2019
-    - Practice round
-        - [Number Guessing](https://github.com/minh364/algorithms/blob/master/kickStart/)
-        - [Mural](https://github.com/minh364/algorithms/blob/master/kickStart/)
