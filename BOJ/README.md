@@ -51,6 +51,7 @@
  
  
  ## Data Structure
+ #### Stack
 - [10828](https://www.acmicpc.net/problem/10828)
 : 스택
 [(solution)](https://github.com/minh364/algorithms/blob/master/BOJ/10828스택.py)
@@ -63,6 +64,11 @@
 - [1406](https://www.acmicpc.net/problem/1406)
 에디터
 [(solution)](https://github.com/minh364/algorithms/blob/master/BOJ/1406에디터.py)
+#### Queue
+- [10845](https://www.acmicpc.net/problem/10845)
+큐
+[(solution)](https://github.com/minh364/algorithms/blob/master/BOJ/10845큐.py)
+
 
 ## Brute force
 
