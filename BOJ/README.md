@@ -3,7 +3,7 @@
 [SW 역량테스트 기초](https://code.plus/course/32) 
 
 
-## Math 
+# Math 
 [수학 문제모음](https://www.acmicpc.net/problem/tag/%EC%88%98%ED%95%99)
 #### + - * //
 - [2839](https://www.acmicpc.net/problem/2839)
@@ -33,7 +33,7 @@
 [(solution)](https://github.com/minh364/algorithms/blob/master/BOJ/11051이항계수.py)
 
 
-#### Greatest common divisor & Least Common multiple
+#### Greatest Common Divisor & Least Common Multiple
 - [2609](https://www.acmicpc.net/problem/2609)
 : 최대공약수와 최소공배수 
 [(Naive solution /](https://github.com/minh364/algorithms/blob/master/BOJ/2609최대공약수와최소공배수.py)
@@ -50,7 +50,7 @@
  
  
  
- ## Data Structure
+ # Data Structure
  #### Stack
 - [10828](https://www.acmicpc.net/problem/10828)
 : 스택
@@ -68,13 +68,16 @@
 - [10845](https://www.acmicpc.net/problem/10845)
 큐
 [(solution)](https://github.com/minh364/algorithms/blob/master/BOJ/10845큐.py)
+- [1158](https://www.acmicpc.net/problem/1158)
+조세퍼스문제
+[(solution)](https://github.com/minh364/algorithms/blob/master/BOJ/1158조세퍼스문제.py)
 
 
-## Brute force
+# Brute force
 
 
 
-## BFS
+# BFS
 
 ---
 [(Solution)](https://github.com/minh364/algorithms/blob/master/BOJ/)
