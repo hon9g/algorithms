@@ -1,11 +1,13 @@
+![Python Versions](https://img.shields.io/pypi/pyversions/3.svg?style=flat-square)
 ## INDEX
 1. **Time Complexity**
     - Of **Python built in function** [go](#TimeComplexity)
     - Of **Sorting algorithms** [go](#Sorting)
-2. Solutions for programming problems
-    - **Codility** [solutions](/Codility/README.md)
-    - **Google KickStart** [solutions](kickStart/README.md)
-    - **BOJ** :kr: [solutions](BOJ/README.md)
+2. Data Structures with Python [go](#DataStructure)
+3. Solutions for programming problems
+    - **Codility** [go to solutions](/Codility/README.md)
+    - **Google KickStart** [go to solutions](kickStart/README.md)
+    - **BOJ** :kr: [go to solutions](BOJ/README.md)
 
 ### To-Do
 - Consider various task cases
@@ -27,26 +29,25 @@
 
 | operation  | example | Big-O |
 | :-------------: | :-------------: | :-------------: |
-| index | `A[i]` | O(1) |
-| store | `A[i] = 0` | O(1) |
-| store | `A[i] = 1` | O(1) |
-| get length | `len(A)` | O(1) |
-| append | `A.append(1)` | O(1) |
-| slice | `A[a:b]` | O(k) |
-| extend | `A.extend(K)` `A += K` `A = A + K`| O(k)| 
-| pop last one | `A.pop()` | O(1) |
-| pop not last one | `A.pop(i)` | O(n) |
-| remove | `A.remove(i)` | O(n) |
-| construction | `list(A)` | O(n) |
-| multiply      | `A*k` | O(n)|
-| copy | `A.copy()` | O(n) |
-| comparision | `a==b` `a!=b` | O(n) |
-| search | `x in A` `x not in A` | O(n) |
-| extreme value | `min(l)` `max(l)`| O(n)|
-| reverse | `A.reverse()`  | O(n) |
-| quick sort | `A.sort()` `sorted(A)`     | O(n*log n) |
-| min&max | `min(s)`, `max(s)`| O(n) |
-| sum | `sum(l)` | O(n) |
+| index | `list[i]` | O(1) |
+| store | `list[i] = 0` | O(1) |
+| store | `list[i] = 1` | O(1) |
+| get length | `len(list)` | O(1) |
+| append | `list.append(x)` | O(1) |
+| slice | `list[a:b]` | O(k) |
+| extend | `list.extend(iterable)` `L += K` `L = L + K`| O(k)| 
+| pop last one | `list.pop()` | O(1) |
+| pop not last one | `list.pop(i)` | O(n) |
+| remove | `list.remove(i)` | O(n) |
+| construction | `list(iterable)` | O(n) |
+| multiply      | `list*k` | O(n)|
+| copy | `list.copy()` | O(n) |
+| comparision | `list1==list2` `list1!=list2` | O(n) |
+| search | `x in list` `x not in list` | O(n) |
+| extreme value | `min(list)` `max(list)`| O(n)|
+| reverse | `list.reverse()`  | O(n) |
+| quick sort | `list.sort()` `sorted(list)`     | O(n*log n) |
+| sum | `sum(list)` | O(n) |
 
 - If we want to add an element at the **end of a list**, we should use `append`. It is faster and direct.
 - If we want to add an element **somewhere within a list**, we should use `insert`. It is the only option for this.
@@ -55,10 +56,23 @@
 
 - `Dictionary.pop(i)` takes O(1)
 
+- collections.deque
+| operation  | example | Big-O |
+| :-------------: | :-------------: | :-------------: |
+|copy|`copy.copy(deque)`|O(n)|
+|append|`.append(x)`|O(1)|
+|append left|`.appendleft(x)`|O(1)|
+|pop|`.pop()`|O(1)|
+|pop left|`.popleft()`|O(1)|
+|extend|`.extend(iterable)`|O(k)|
+|extend|`extendleft(iterable)`|O(k)|
+|rotate|`.rotate(n)`|O(k)|
+|remove|`.remove(x)`|O(n)|
+
 more: 
 [python wiki-Time complexity](https://wiki.python.org/moin/TimeComplexity)
 , [UCI- Complexity of Python Operations](https://www.ics.uci.edu/~pattis/ICS-33/lectures/complexitypython.txt)
-[append vs insert vs extend](https://stackabuse.com/append-vs-extend-in-python-lists/)
+, [append vs insert vs extend](https://stackabuse.com/append-vs-extend-in-python-lists/)
 
 # Sorting
 | algorithm | worst | average | Memory |
@@ -70,3 +84,26 @@ more:
 - In average, quick sort is faster than merge sort by constant time. 
 - In worst case, quick sort have O(n) size of call stack, and in best O(log n) size.
 
+
+# DataStructure
+I summarize quick and simple Python implementation of data structures which is need during the coding tests .
+I will keep updating.
+
+## Stack
+python built-in data structure `list` have methods
+`append(x)` to **add** an element at the *end of a list* and
+`pop()` to pop an element at the *end of a list*.
+
+|init|push()|pop()|
+|:---:|:---:|:---:|
+|`stack=list()` or `stack =[]`|`stack.append(x)`|`stack.pop()`|
+
+## Queue
+python built-in data structure `collections.deque` have methods
+`append(x)` to **add** an element at the *end of a list* and
+`popleft()` to pop an element at the *start of a list*.
+
+`from collections import deque`
+|init|push()|pop()|
+|:---:|:---:|:---:|
+|`stack=deque()`|`stack.append(x)`|`stack.popleft()`|
