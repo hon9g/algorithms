@@ -25,7 +25,7 @@
 
 ## Time complexity of Python built-in Functions
 
-- List
+### list
 
 | operation  | example | Big-O |
 | :-------------: | :-------------: | :-------------: |
@@ -49,14 +49,15 @@
 | quick sort | `list.sort()` `sorted(list)`     | O(n*log n) |
 | sum | `sum(list)` | O(n) |
 
+**append vs insert vs extend** [more](https://stackabuse.com/append-vs-extend-in-python-lists/)
 - If we want to add an element at the **end of a list**, we should use `append`. It is faster and direct.
 - If we want to add an element **somewhere within a list**, we should use `insert`. It is the only option for this.
-- If we want to **combine** the elements of another iterable to our list, then we should use `extend`.
-
+- If we want to **combine** the elements of another iterable to our list, then we should use `extend`. 
 
 - `Dictionary.pop(i)` takes O(1)
 
-- collections.deque
+### collections.deque
+
 | operation  | example | Big-O |
 | :-------------: | :-------------: | :-------------: |
 |copy|`copy.copy(deque)`|O(n)|
@@ -72,7 +73,6 @@
 more: 
 [python wiki-Time complexity](https://wiki.python.org/moin/TimeComplexity)
 , [UCI- Complexity of Python Operations](https://www.ics.uci.edu/~pattis/ICS-33/lectures/complexitypython.txt)
-, [append vs insert vs extend](https://stackabuse.com/append-vs-extend-in-python-lists/)
 
 # Sorting
 | algorithm | worst | average | Memory |
@@ -104,6 +104,7 @@ python built-in data structure `collections.deque` have methods
 `popleft()` to pop an element at the *start of a list*.
 
 `from collections import deque`
+
 |init|push()|pop()|
 |:---:|:---:|:---:|
 |`stack=deque()`|`stack.append(x)`|`stack.popleft()`|
