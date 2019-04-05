@@ -71,7 +71,9 @@
 - [1158](https://www.acmicpc.net/problem/1158)
 조세퍼스문제
 [(solution)](https://github.com/minh364/algorithms/blob/master/BOJ/1158조세퍼스문제.py)
-
+-[10866](https://www.acmicpc.net/problem/10866)
+덱
+[(solution)](https://github.com/minh364/algorithms/blob/master/BOJ/10866덱.py)
 
 # Brute force
 
