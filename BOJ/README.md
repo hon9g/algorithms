@@ -71,19 +71,32 @@
 - [1158](https://www.acmicpc.net/problem/1158)
 조세퍼스문제
 [(solution)](https://github.com/minh364/algorithms/blob/master/BOJ/1158조세퍼스문제.py)
--[10866](https://www.acmicpc.net/problem/10866)
+- [10866](https://www.acmicpc.net/problem/10866)
 덱
 [(solution)](https://github.com/minh364/algorithms/blob/master/BOJ/10866덱.py)
--[10808](https://www.acmicpc.net/problem/10808)
+- [10808](https://www.acmicpc.net/problem/10808)
 알파벳개수
 [(solution)](https://github.com/minh364/algorithms/blob/master/BOJ/10808알파벳개수.py)
-
-
+- [10809](https://www.acmicpc.net/problem/10809)
+알파벳찾기
+[(solution)](https://github.com/minh364/algorithms/blob/master/BOJ/10809알파벳찾기.py)
+- [10820](https://www.acmicpc.net/problem/10820)
+문자열 분석
+[(solution)](https://github.com/minh364/algorithms/blob/master/BOJ/10820문자열분석.py)
+- [11655](https://www.acmicpc.net/problem/11655)
+ROT13
+[(solution)](https://github.com/minh364/algorithms/blob/master/BOJ/11655ROT13.py)
+- [10824](https://www.acmicpc.net/problem/10824)
+네 수[(solution)](https://github.com/minh364/algorithms/blob/master/BOJ/10824네수.py)
 # Brute force
 
 
 
 # BFS
+
+# Dynamic Programming
+
+
 
 ---
 [(Solution)](https://github.com/minh364/algorithms/blob/master/BOJ/)
