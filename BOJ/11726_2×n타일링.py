@@ -5,12 +5,12 @@ def solution(N):
     Returns:
         int: 2xN 크기의 직사각형을 1x2 또는 2x1 타일로 채우는 방법의 수을 10,007로 나눈 나머지
     """
-    cases = [0, 1, 2, 3]
     if N < 4:
-        return cases[N]
-    for n in range(4, N+1):
-        cases.append(cases[n-1]+cases[n-2])
-    return cases[N] % 10007
+        return N
+    grandmother, mother = 2, 3
+    for _ in range(4, N+1):
+        grandmother, mother = mother, grandmother+mother
+    return mother % 10007
 
 
 import unittest
