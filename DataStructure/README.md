@@ -4,6 +4,15 @@ As suggested by this repo, [Coding Interview University](https://github.com/jwas
 
 I implemented the DataStructure in `Python`.
 
+
+## The 5 requirements of any data structure
+
+- How to **Access** _( one item / all item )_
+- How to **Insert** _( at end / at position )_
+- How to **Delete** _( from end / from position )_
+- How to **Fine** _( if exists / what location )_
+- How to **Sort** _( sort in place / created sorted version )_
+
 <img src="https://user-images.githubusercontent.com/26381972/56885655-ef658000-6aa7-11e9-8c9d-493fa3c93f43.png" width="800px">
 
 ## Arrays
@@ -12,7 +21,7 @@ I implemented the DataStructure in `Python`.
 - This makes it easier to calculate the position of each element by simply adding an offset to a base value
 
 
-- Times for Common Operations
+### Time complexity for Common Operations
 
 | at | Add | Remove |
 | :---: | :---: |:---: |
@@ -24,8 +33,11 @@ I implemented the DataStructure in `Python`.
 - Constant-time to add/remove at the end.
 - Constant-time access to any element. _(with address)_
 
+### Limitation of Array
+1. The size of arrays is fixed. 
+    - So we must know the upper limit on the number of elements in advance. 
+    - Also, generally, the allocated memory is equal to the upper limit irrespective of the usage.
 
-- Definition of Multi-dimensional Array : an array of references to arrays/
 
 
 <details>
@@ -35,10 +47,12 @@ I implemented the DataStructure in `Python`.
 - [UC Berkeley CS61B - Linear and Multi-Dim Arrays (video)](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE) (Start watching from 15m 32s)
 - [Basic Arrays (video)](https://archive.org/details/0102WhatYouShouldKnow/02_04-basicArrays.mp4)
 - [Multi-dim (video)](https://archive.org/details/0102WhatYouShouldKnow/02_05-multidimensionalArrays.mp4)
+- Definition of Multi-dimensional Array : an array of references to arrays/
 - [Dynamic Arrays (video)](https://www.coursera.org/learn/data-structures/lecture/EwbnV/dynamic-arrays)
 - [Jagged Arrays (video)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
 - [Jagged Arrays (video)](https://archive.org/details/0102WhatYouShouldKnow/02_06-jaggedArrays.mp4)
 - [Resizing arrays (video)](https://archive.org/details/0102WhatYouShouldKnow/03_01-resizableArrays.mp4)
+- [Internal working of list in Python](https://www.geeksforgeeks.org/internal-working-of-list-in-python/)
 
 </details>
 
@@ -76,10 +90,15 @@ reference: [MS doc: vector Class](https://docs.microsoft.com/en-us/cpp/standard-
 
 ## Linked-Lists
 
+- Like arrays, Linked List is a linear data structure. 
+- Unlike arrays, linked list elements are not stored at contiguous location; the elements are linked using pointers.
+
+
 <details>
 <summary>Resources :</summary>
 
 - Description:
+    - [Linked List Introduction](https://www.geeksforgeeks.org/linked-list-set-1-introduction/)
     - [Singly Linked Lists (video)](https://www.coursera.org/learn/data-structures/lecture/kHhgK/singly-linked-lists)
     - [CS 61B - Linked Lists 1 (video)](https://archive.org/details/ucberkeley_webcast_htzJdKoEmO0)
     - [CS 61B - Linked Lists 2 (video)](https://archive.org/details/ucberkeley_webcast_-c4I3gFYe3w)
