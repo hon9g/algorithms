@@ -1,4 +1,4 @@
-def gcd(a, b):
+def gcd(a: int, b: int) -> int:
     if a < b:
         a, b = b, a
     a = a % b
@@ -6,14 +6,14 @@ def gcd(a, b):
         return b
     return gcd(a, b)
 
-def solution(A: int, B: int):
+def solution(A: int, B: int) -> int:
     """
     Args:
         A(int), B(int): 각각 1 ≤ A, B ≤ 45,000 사이의 양수.
     Returns:
-        int: 최소공배수를 print한다.
+        int: A와 B의 최소공배수.
     """
-    print(A*B//gcd(A, B))
+    return A*B//gcd(A, B)
 
 def test():
     """
@@ -31,5 +31,5 @@ if __name__ == '__main__':
     # T = int(input())
     # for t in range(T):
     #     A, B = [int(x) for x in input().split()]
-    #     solution(A, B)
+    #     print(solution(A, B))
     test()

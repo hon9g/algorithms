@@ -1,24 +1,25 @@
-from math import sqrt
-def solution(nums):
+def solution(nums: list) -> int:
     """
     Args:
         nums(`list` of `int`): 각 원소는 1000 이하 자연수.
-    :return:
+    Returns:
         int: 주어진 숫자 중 소수의 갯수.
     """
     nums = sorted(nums)
-    count, n = 0, int(sqrt(nums[-1]))+1
-    is_prime = [False, False] + [True]*(nums[-1]-1)
-
-    while 1 < n:
-        for n2 in range(2, (nums[-1]//n)+1):
-            is_prime[n * n2] = False
-        n += -1
-    # print(is_prime)
+    count: int = 0
+    n: int = 2
+    is_prime = [False, False] + [True] * (nums[-1] - 1)
+    while n * n <= nums[-1]:
+        composite = n * n
+        while composite <= nums[-1]:
+            is_prime[composite] = False
+            composite += n
+        n += 1
     for num in nums:
         if is_prime[num]:
             count += 1
-    print(count)
+    return count
+
 
 def test():
     """
@@ -35,13 +36,12 @@ def test():
 
     """
     import doctest
-    doctest.testmod()
-    cases = [[1, 3, 5, 7], [2, 4, 6, 8],[1],[111],[13]]
-    for case in cases:
-        solution(case)
 
-if __name__ ==  '__main__':
+    doctest.testmod()
+
+
+if __name__ == "__main__":
     # N = int(input())
     # nums = [int(x) for x in input().split()]
-    # solution(nums)
+    # print(solution(nums))
     test()

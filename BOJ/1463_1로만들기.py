@@ -1,4 +1,4 @@
-def solution(N):
+def solution(N: int) -> int:
     """
     Args
         N(int): 정수. 0 < N <= 10**6.
@@ -9,7 +9,6 @@ def solution(N):
         1. if X%3 == 0: X //= 3
         2. if X%2 == 0: X //= 2
         3. X += -1
-
     """
 
     counters = [0, 0, 1, 1]
@@ -25,7 +24,7 @@ def solution(N):
     return counters[N]
 
 
-def false_solution(N):
+def false_solution(N: int) -> int:
     """
     2 로도 나누어지고 3으로도 나누어지는 경우를 고려하지 못함.
 

@@ -1,6 +1,6 @@
 import sys
 
-def editor(string, N,):
+def editor(string: str, N: int) -> str:
     """ 시간단축
         알고리즘: 2개의 스택으로 구현해서, 커서를 움직이고 원소를 삽입 삭제할때 O(1)시간 걸리도록 함.
         구현:
@@ -10,7 +10,7 @@ def editor(string, N,):
             string(str): 영어 소문자로 이루어진 길이 100,000이하의 문자열.
             N(int): 입력할 명령어 갯수. 1≤N≤500,000.
         Returns:
-            srt: 명령에 따라 조작을 끝낸 문자열
+            str: 명령에 따라 조작을 끝낸 문자열
         """
     left, right = [x for x in string], []
     for n in range(N):
@@ -29,7 +29,7 @@ def editor(string, N,):
     result = ''.join(left) + ''.join(reversed(right))
     return result
 
-def slow_editor(string, N):
+def slow_editor(string: str, N: int) -> str:
     """ 시간초과
     반복문안에 있는
     string += cmd[1] 이나 string = string[:cursor] + string[cursor+1:]

@@ -1,5 +1,7 @@
 from collections import deque
-def solution(N, K):
+
+
+def solution(N: int, K: int) -> list:
     """
     Args:
         N(int): 원형으로 앉아있는 사람 수. (1번부터 N번까지)
@@ -10,19 +12,23 @@ def solution(N, K):
     Returns:
         `list` of `int`: 조세퍼스 순열을 반환한다.
     """
-    result, left = [], []
-    right = deque(range(1, N+1))
+    result: list = []
+    left: list = []
+    right = deque(range(1, N + 1))
     while left or right:
         for _ in range(K):
             if not right and left:
-                right.extend(deque(left)) # 처음에 이부분 실수함
+                right.extend(deque(left))  # 처음에 이부분 실수함
                 left = []
             left.append(right.popleft())
         else:
             result.append(left.pop())
     return result
 
+
 import unittest
+
+
 class Test(unittest.TestCase):
     def test_oneN_biggerK(self):
         self.assertEqual([1], solution(1, 5))
@@ -40,7 +46,7 @@ class Test(unittest.TestCase):
         self.assertEqual([3, 6, 2, 7, 5, 1, 4], solution(7, 3))
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     unittest.main()
     # import sys
     # N, K = [int(x) for x in sys.stdin.readline().split()]
