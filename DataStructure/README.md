@@ -1,9 +1,18 @@
 # DataStructure
-As suggested by this repo, [Coding Interview University](https://github.com/jwasham/coding-interview-university)
-.
+contains
+- references
+- implementation of each data structure
+- solution for interview question related each data structure
 
-I implemented the DataStructure in `Python`.
-
+0. Common Data Structure Operations
+1. Arrays [go](#Arrays)
+2. Linked Lists [go](#Linked_Lists)
+3. Stack [go]()
+4. Queue [go]()
+5. Hash Table [go]()
+6. Trees [go]()
+7. Graphs [go]()
+8. Python DataStructure 
 
 ## The 5 requirements of any data structure
 
@@ -47,7 +56,7 @@ I implemented the DataStructure in `Python`.
 - [UC Berkeley CS61B - Linear and Multi-Dim Arrays (video)](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE) (Start watching from 15m 32s)
 - [Basic Arrays (video)](https://archive.org/details/0102WhatYouShouldKnow/02_04-basicArrays.mp4)
 - [Multi-dim (video)](https://archive.org/details/0102WhatYouShouldKnow/02_05-multidimensionalArrays.mp4)
-- Definition of Multi-dimensional Array : an array of references to arrays/
+    - Definition of Multi-dimensional Array : an array of references to arrays/
 - [Dynamic Arrays (video)](https://www.coursera.org/learn/data-structures/lecture/EwbnV/dynamic-arrays)
 - [Jagged Arrays (video)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
 - [Jagged Arrays (video)](https://archive.org/details/0102WhatYouShouldKnow/02_06-jaggedArrays.mp4)
@@ -70,7 +79,7 @@ reference: [MS doc: vector Class](https://docs.microsoft.com/en-us/cpp/standard-
     - start with 16, or if starting number is greater, use power of 2 - 16, 32, 64, 128
 - methods:
   - size() - number of items
-  - capacity() - number of items it can hold
+  - capacity() - number of items it can hold *
   - is_empty()
   - at(index) - returns item at given index, blows up if index out of bounds
   - push(item)
@@ -80,7 +89,7 @@ reference: [MS doc: vector Class](https://docs.microsoft.com/en-us/cpp/standard-
   - delete(index) - delete item at index, shifting all trailing elements left
   - remove(item) - looks for value and removes index holding it (even if in multiple places)
   - find(item) - looks for value and returns first index with that value, -1 if not found
-  - resize(new_capacity) // private function
+  - resize(new_capacity) // private function *
     - when you reach capacity, resize to double the size
     - when popping an item, if size is 1/4 of capacity, resize to half
  
@@ -88,7 +97,7 @@ reference: [MS doc: vector Class](https://docs.microsoft.com/en-us/cpp/standard-
 
 
 
-## Linked-Lists
+## Linked_Lists
 
 - Like arrays, Linked List is a linear data structure. 
 - Unlike arrays, linked list elements are not stored at contiguous location; the elements are linked using pointers.
@@ -124,16 +133,16 @@ reference: [MS doc: vector Class](https://docs.microsoft.com/en-us/cpp/standard-
 - implement (I did with tail pointer & without):
     - size() - returns number of data elements in list
     - empty() - bool returns true if empty
-    - value_at(index) - returns the value of the nth item (starting at 0 for first)
-    - push_front(value) - adds an item to the front of the list
+    - value_at(index) - returns the value of the n-th item (starting at 0 for first)
+    - prepend(value) - adds an item to the front of the list
+    - append(value) - adds an item at the end
     - pop_front() - remove front item and return its value
-    - push_back(value) - adds an item at the end
-    - pop_back() - removes end item and returns its value
-    - front() - get value of front item
-    - back() - get value of end item
+    - pop() - removes end item and returns its value
+    - head() - get value of front item
+    - tail() - get value of end item
     - insert(index, value) - insert value at index, so current item at that index is pointed to by new item at index
-    - erase(index) - removes node at given index
-    - value_n_from_end(n) - returns the value of the node at nth position from the end of the list
+    - remove(index) - removes node at given index
+    - value_n_from_end(n) - returns the value of the node at n-th position from the end of the list
     - reverse() - reverses the list
     - remove_value(value) - removes the first item in the list with this value
  
@@ -250,6 +259,14 @@ _Cost:_
 - get(key)
 - remove(key)
  
+</details>
+<summary>To-Do 면접 문제: </summary>
+
+[중복이 없는가]()
+
+<details>
+
+
 </details>
 
 ## Trees
@@ -435,3 +452,16 @@ Before start to dig in graphs
         - check for bipartite graph
  
 </details>
+
+# Python DataStructure
+
+| name | Data Type | Implemented as | mutable / immutable | support type |
+|: --- :|: --- :|: --- :|: --- :|: --- :|
+| `array.array` | array | Basic array | mutable | everything, C-style typed array |
+| `list` | Dynamic array |  | mutable | everything |
+| `str` | Arrays of Unicode Characters |  | immutable | only `char` |
+| `collections.deque` | Double-ended queue | Doubly-linked list | mutable | everything |
+
+
+# Reference
+[Coding Interview University](https://github.com/jwasham/coding-interview-university)
