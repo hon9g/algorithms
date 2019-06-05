@@ -2,17 +2,38 @@
 Doubly Linked List Implementation
 """
 
+
 class Node:
-    def __init__(self, data: str, prev_node = None, next_node = None) -> None:
+    def __init__(self, data: str, prev_node=None, next_node=None) -> None:
         self.data: str = data
         self.prev_node: Node = prev_node
         self.next_node: Node = next_node
+
+    def __str__(self):
+        return str(self.data)
+
 
 class DoublyLinkedList:
     def __init__(self) -> None:
         self.head: Node = None
         self.tail: Node = None
-        self.size: int = 0
+
+    def __len__(self):
+        cnt: int = 0
+        current: Node = self.head
+        while current:
+            cnt += 1
+            current = current.next_node
+        return cnt
+
+    def __str__(self):
+        current: Node = self.head
+        y: str = ""
+        while current:
+            y += str(current) + "->"
+            current = current.next_node
+        y += "NULL"
+        return y
 
     def append(self, x):
         if self.tail:
@@ -20,7 +41,6 @@ class DoublyLinkedList:
             self.tail = self.tail.next_node
         else:
             self.head = self.tail = Node(x)
-        self.size += 1
 
     def appendleft(self, x):
         if self.head:
@@ -28,48 +48,46 @@ class DoublyLinkedList:
             self.head = self.head.prev_node
         else:
             self.head = self.tail = Node(x)
-        self.size += 1
 
     def clear(self):
         self.head = None
         self.tail = None
-        self.size = 0
 
     def count(self, x):
         current_node: Node = self.head
         cnt: int = 0
-        while current_node: # O(N)
+        while current_node:
             if current_node.data == x:
                 cnt += 1
             current_node = current_node.next_node
         return cnt
 
-    def index(self, x):
-        return x
-
     def insert(self, i, x):
         if i == 0:
             self.appendleft(x)
-        elif i == self.size-1:
+        elif i == -1:
             self.append(x)
         else:
-            current_node = self.head
+            current = self.head
             for _ in range(i):
-                current_node = current_node.next_node
-            current_node.prev_node = Node(x, prev_node=current_node.prev_node, next_node=current_node)
-        self.size += 1
+                current = current.next_node
+            if current is None:
+                self.append(x)
+            else:
+                current.prev_node = Node(
+                    x, prev_node=current.prev_node, next_node=current
+                )
 
     def pop(self):
         if not self.tail:
             raise IndexError
-        y = self.tail
+        y: Node = self.tail
         if self.tail.prev_node:
             self.tail = self.tail.prev_node
             self.tail.next_node = None
         else:
             self.head = self.tail = None
-        self.size += -1
-        return y
+        return y.data
 
     def popleft(self):
         if not self.head:
@@ -80,34 +98,36 @@ class DoublyLinkedList:
             self.head.prev_node = None
         else:
             self.head = self.tail = Node
-        self.size += -1
-        return y
+        return y.data
 
     def remove(self, x):
-        self.size += -1
-        current_node = self.head
-        while current_node:
-            if current_node.data == x:
-                p, n = current_node.prev_node, current_node.next_node
+        current: Node = self.head
+        while current:
+            if current.data == x:
+                p, n = current.prev_node, current.next_node
                 p.next_node, n.prev_node = n, p
                 break
+            current = current.next_node
         else:
             raise ValueError
 
     def reverse(self):
-        if 1 < self.size:
-            self.head, self.tail = self.tail, self.head
-            current_node = self.head
-            while current_node:
-                current_node.prev_node, current_node.next_node = current_node.next_node, current_node.prev_node
-                current_node = current_node.next_node
+        self.tail = current = self.head
+        while current:
+            n, current.next_node = current.next_node, current.prev_node
+            p, current = current, n
+        self.head = p
         return None
 
-    def rotate(self, n:int=1):
-        if self.size < 1:
-            if n < 0:
-                for _ in range(n % self.size):
-                    self.appendleft(self.pop())
-            elif 0 < n:
-                for _ in range((n*-1) % self.size):
-                    self.append(self.popleft())
+    def rotate(self, n: int):
+        if self.head:
+            if 0 < n:
+                for _ in range(n):
+                    x = self.pop()
+                    self.appendleft(x)
+            elif n < 0:
+                for _ in range(n * -1):
+                    x = self.popleft()
+                    self.append(x)
+        else:
+            raise IndexError
