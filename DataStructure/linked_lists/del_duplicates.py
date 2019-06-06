@@ -3,15 +3,17 @@ from doubly_linked_list_from_scratch import DoublyLinkedList
 
 def solution(ll):
     outer = ll.head
-    while outer.next_node:
+    while outer:
         inner = outer.next_node
-        while inner.next_node:
+        while inner:
             if outer.data == inner.data:
-                p, n = inner.prev_node, inner.next_node
-                p.next_node, n.prev_node = n, p
+                if not inner.next_node:
+                    ll.pop()
+                    break
+                else:
+                    p, n = inner.prev_node, inner.next_node
+                    p.next_node, n.prev_node = n, p
             inner = inner.next_node
-        if not outer.next_node:
-            break
         outer = outer.next_node
     return ll
 
@@ -43,3 +45,4 @@ if __name__ == "__main__":
         print()
         for i in range(len(y[t])):
             assert y[t][i] == answer.popleft()
+        assert len(answer) == 0
