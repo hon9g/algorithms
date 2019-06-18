@@ -1,14 +1,14 @@
 """
 Doubly Linked List Implementation
 """
-from typing import Union, Optional
+from typing import Union
 
 
 class MyNode:
     def __init__(self, data: Union[int, float, str], prev_node=None, next_node=None) -> None:
         self.data = data
-        self.prev_node: Optional[MyNode] = prev_node
-        self.next_node: Optional[MyNode] = next_node
+        self.prev_node = prev_node
+        self.next_node = next_node
 
     def __str__(self) -> str:
         return str(self.data)
@@ -16,19 +16,19 @@ class MyNode:
 
 class DoublyLinkedList:
     def __init__(self) -> None:
-        self.head: Optional[MyNode] = None
-        self.tail: Optional[MyNode] = None
+        self.head = None
+        self.tail = None
 
     def __len__(self) -> int:
         cnt: int = 0
-        current: MyNode = self.head
+        current = self.head
         while current:
             cnt += 1
             current = current.next_node
         return cnt
 
     def __str__(self) -> str:
-        current: MyNode = self.head
+        current = self.head
         y: str = str(current.data) + "->"
         while current.next_node:
             current = current.next_node
@@ -38,7 +38,7 @@ class DoublyLinkedList:
 
     def append(self, x) -> None:
         if self.tail:
-            self.tail.next_node: MyNode = MyNode(x, prev_node=self.tail)
+            self.tail.next_node = MyNode(x, prev_node=self.tail)
             self.tail = self.tail.next_node
             if not self.head.next_node:
                 self.head.next_node = self.tail
@@ -48,7 +48,7 @@ class DoublyLinkedList:
 
     def appendleft(self, x) -> None:
         if self.head:
-            self.head.prev_node: MyNode = MyNode(x, next_node=self.head)
+            self.head.prev_node = MyNode(x, next_node=self.head)
             self.head = self.head.prev_node
             if not self.tail.prev_node:
                 self.tail.prev_node = self.head
@@ -57,8 +57,8 @@ class DoublyLinkedList:
             self.head = self.tail = MyNode(x)
 
     def clear(self) -> None:
-        self.head: Optional[MyNode] = None
-        self.tail: Optional[MyNode] = None
+        self.head = None
+        self.tail = None
 
     def count(self, x) -> int:
         current_node: MyNode = self.head
@@ -108,7 +108,7 @@ class DoublyLinkedList:
         return y.data
 
     def remove(self, x):
-        current: MyNode = self.head
+        current = self.head
         while current:
             if current.data == x:
                 p, n = current.prev_node, current.next_node
