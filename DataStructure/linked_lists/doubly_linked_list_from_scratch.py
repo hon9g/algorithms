@@ -36,7 +36,7 @@ class DoublyLinkedList:
         y += "NULL"
         return y
 
-    def append(self, x) -> None:
+    def append(self, x: Union[int, float, str]) -> None:
         if self.tail:
             self.tail.next_node = MyNode(x, prev_node=self.tail)
             self.tail = self.tail.next_node
@@ -46,7 +46,7 @@ class DoublyLinkedList:
         else:
             self.head = self.tail = MyNode(x)
 
-    def appendleft(self, x) -> None:
+    def appendleft(self, x: Union[int, float, str]) -> None:
         if self.head:
             self.head.prev_node = MyNode(x, next_node=self.head)
             self.head = self.head.prev_node
@@ -60,8 +60,8 @@ class DoublyLinkedList:
         self.head = None
         self.tail = None
 
-    def count(self, x) -> int:
-        current_node: MyNode = self.head
+    def count(self, x: Union[int, float, str]) -> int:
+        current_node = self.head
         cnt: int = 0
         while current_node:
             if current_node.data == x:
@@ -69,7 +69,7 @@ class DoublyLinkedList:
             current_node = current_node.next_node
         return cnt
 
-    def insert(self, i, x) -> None:
+    def insert(self, i: int, x: Union[int, float, str]) -> None:
         if i == 0:
             self.appendleft(x)
         elif i == -1:
@@ -88,7 +88,7 @@ class DoublyLinkedList:
     def pop(self) -> Union[int, float, str]:
         if not self.head:
             raise IndexError
-        y: MyNode = self.tail
+        y = self.tail
         if self.tail.prev_node:
             self.tail = self.tail.prev_node
             self.tail.next_node = None
@@ -107,7 +107,7 @@ class DoublyLinkedList:
             self.head = self.tail = None
         return y.data
 
-    def remove(self, x):
+    def remove(self, x: Union[int, float, str]):
         current = self.head
         while current:
             if current.data == x:
