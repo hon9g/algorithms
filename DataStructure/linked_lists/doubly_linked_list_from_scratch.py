@@ -57,16 +57,22 @@ class DoublyLinkedList:
             self.head = self.tail = MyNode(x)
 
     def clear(self) -> None:
+        current = self.head
+        while current:
+            current_next = current.next_node
+            del current.next_node
+            del current.prev_node
+            current = current_next
         self.head = None
         self.tail = None
 
     def count(self, x: Union[int, float, str]) -> int:
-        current_node = self.head
+        current = self.head
         cnt: int = 0
-        while current_node:
-            if current_node.data == x:
+        while current:
+            if current.data == x:
                 cnt += 1
-            current_node = current_node.next_node
+            current = current.next_node
         return cnt
 
     def insert(self, i: int, x: Union[int, float, str]) -> None:
