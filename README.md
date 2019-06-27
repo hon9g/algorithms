@@ -109,9 +109,8 @@ Remove        |`s.remove(..)`| O(1)	     |
 Discard       |`s.discard(..)`| O(1)	     | 
 Pop           |`s.pop()`     | O(1)	     | 
 Clear         |`s.clear()`   | O(1)	     | 
-check ==, !=  |`s != t`      | O(len(s))     | 
-<=/<          |`s <= t`      | O(len(s))     | 
->=/>          |`s >= t`      | O(len(t))     | 
+check  |`s != t` `s == t` `s <= t`     | O(len(s))     | 
+check          |`s >= t`      | O(len(t))     | 
 Union         |`s ∣ t`       | O(len(s)+len(t))
 Intersection  |`s & t`        | O(len(s)+len(t))
 Difference    |`s - t`        | O(len(s)+len(t))
