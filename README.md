@@ -27,8 +27,6 @@
 | N <= 10,000 | `O(N**2)`|
 | N <= 500 |`O(N**3)`|
 
-<img src="https://user-images.githubusercontent.com/26381972/56885321-25eecb00-6aa7-11e9-8366-dc8a5bfc19d8.png" width="500px">
-
 <details>
 <summary>resources:</summary>
 
@@ -57,7 +55,7 @@
 
 ### list
 
-| operation  | example | Big-O |
+| operation  | example | time complexity |
 | :-------------: | :-------------: | :-------------: |
 | index | `list[i]` | O(1) |
 | store | `list[i] = 0` | O(1) |
@@ -88,7 +86,7 @@
 
 ### collections.deque
 
-| operation  | example | Big-O |
+| operation  | example | time complexity |
 | :-------------: | :-------------: | :-------------: |
 |copy|`copy.copy(deque)`|O(n)|
 |append|`.append(x)`|O(1)|
@@ -99,6 +97,41 @@
 |extend|`extendleft(iterable)`|O(k)|
 |rotate|`.rotate(n)`|O(k)|
 |remove|`.remove(x)`|O(n)|
+
+### set
+
+| operation  | example | time complexity |
+| :-------------: | :-------------: | :-------------: | 
+Length        |`len(s)`       | O(1)	     |
+Add           |`s.add(x)`     | O(1)	     |
+Containment   |`x in/not in s`| O(1)	     | 
+Remove        |`s.remove(..)`| O(1)	     | 
+Discard       |`s.discard(..)`| O(1)	     | 
+Pop           |`s.pop()`     | O(1)	     | 
+Clear         |`s.clear()`   | O(1)	     | 
+check ==, !=  |`s != t`      | O(len(s))     | 
+<=/<          |`s <= t`      | O(len(s))     | 
+>=/>          |`s >= t`      | O(len(t))     | 
+Union         |`s ∣ t`       | O(len(s)+len(t))
+Intersection  |`s & t`        | O(len(s)+len(t))
+Difference    |`s - t`        | O(len(s)+len(t))
+Symmetric Diff|`s ^ t`        | O(len(s)+len(t))
+Copy          |`s.copy()`     | O(N)	     |
+
+### Dictionary
+
+| operation  | example | time complexity |
+| :-------------: | :-------------: | :-------------: |
+Index         | `d[k]`         | O(1)	     |
+Store         | `d[k] = v`     | O(1)	     |
+Length        | `len(d)`       | O(1)	     |
+Delete        | `del d[k]`     | O(1)	     |
+get/setdefault| `d.get(k)`     | O(1)	     |
+Pop           | `d.pop(k)`     | O(1)	     | 
+Pop item      | `d.popitem()`  | O(1)	     | 
+Clear         | `d.clear()`    | O(1)	     | 
+View          | `d.keys()`     | O(1)	     | 
+
 
 more: 
 [python wiki-Time complexity](https://wiki.python.org/moin/TimeComplexity)
