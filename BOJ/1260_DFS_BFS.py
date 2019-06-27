@@ -12,24 +12,24 @@ def build_graph(E):
 	return G
 
 def DFS(G, v_start):
-	visited = []
-	stack = [v_start]
+	visited, stack, path = set(), [v_start], []
 	while stack:
 		v = stack.pop()
 		if v not in visited:
-			visited.append(v)
+			visited.add(v)
+			path.append(v)
 			stack += reversed(G[v])
-	return visited
+	return path
 
 def BFS(G, v_start):
-	visited = []
-	queue = deque([v_start])
+	visited, queue, path = set(), deque([v_start]), []
 	while queue:
 		v = queue.popleft()
 		if v not in visited:
-			visited.append(v)
+			visited.add(v)
+			path.append(v)
 			queue += G[v]
-	return visited
+	return path
 
 if __name__ == "__main__":
 	num_V, num_E, v_start = [int(x) for x in input().split(" ")]
