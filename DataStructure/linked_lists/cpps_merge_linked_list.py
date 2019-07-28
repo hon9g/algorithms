@@ -47,6 +47,9 @@ class Solution:
         """
         Merge 2 sorted Linked Lists
 
+        Time Complexity: O(N) if N > M
+        Space Complexity: O(1)
+
         >>> N, M = linkedList().create([1, 2, 4]), linkedList().create([1, 3, 4])
         >>> print(N)
         1->2->4->NULL
@@ -88,6 +91,37 @@ class Solution:
             curr.next_node = node(x)
             curr = curr.next_node
         
+        if N.head:
+            curr.next_node = N.head
+        elif M.head:
+            curr.next_node = M.head
+            
+        return result
+
+def mergeList(self, N, M):
+        """
+        Merge 2 sorted Linked Lists
+
+        Time Complexity: O(N+M)
+        Space Complexity: O(1)
+        """
+
+        result = linkedList()
+        if N.head.val <= M.head.val:
+            result.head = node(N.popLeft())
+        else:
+            result.head = node(M.popLeft())
+        
+        curr = result.head
+
+        while N.head and M.head:
+            if N.head.val <= M.head.val:
+                x = N.popLeft()
+            else:
+                x = M.popLeft()
+            curr.next_node = node(x)
+            curr = curr.next_node
+
         while N.head:
             x = N.popLeft()
             curr.next_node = node(x)
@@ -96,8 +130,7 @@ class Solution:
         while M.head:
             x = M.popLeft()
             curr.next_node = node(x)
-            curr = curr.next_node
-
+            curr = curr.next_node  
         return result
 
 if __name__ == '__main__':
