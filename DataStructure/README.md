@@ -8,7 +8,7 @@ contains
 1. Arrays [go](#Arrays)
 2. Linked Lists [go](#Linked_Lists)
 3. Stack [go]()
-4. Queue [go]()
+4. Queue [go](#Queue)
 5. Hash Table [go]()
 6. Trees [go]()
 7. Graphs [go]()
@@ -199,29 +199,33 @@ python built-in data structure `collections.deque` have methods
 <details>
 <summary>To-Do: Implement Queue using linked-list, with tail pointer:</summary>
     
-- enqueue(value) - adds value at position at tail
-- dequeue() - returns value and removes least recently added element (front)
-- empty()
+- enqueue(value) - Add an element into the queue
+- dequeue() - Removes the front element from queue
+- front() - Return the front element
+- rear() - Return the last element
+- isEmpty() - return True if queue is empty else False
+- isFull() - return True if queue is full else False
+
+[my solution](https://github.com/hon9g/algorithms_and_datastructure/blob/master/DataStructure/queue/CircularQueueByArray.py)
  
 </details>
 
 <details>
 <summary>To-Do: Implement Queue using fixed-sized array:</summary>
     
-- enqueue(value) - adds item at end of available storage
-- dequeue() - returns value and removes least recently added element
-- empty()
-- full()
- 
+- enqueue(value) - Add an element into the queue
+- dequeue() - Removes the front element from queue
+- front() - Return the front element
+- rear() - Return the last element
+- isEmpty() - return True if queue is empty else False
+- isFull() - return True if queue is full else False
+
+[my solution](https://github.com/hon9g/algorithms_and_datastructure/blob/master/DataStructure/queue/CirculartQueueByLinkedList.py)
+
 </details>
 
-_Cost:_
-- a bad implementation using linked list where you enqueue at head and dequeue at tail would be O(n)
-    because you'd need the next to last element, causing a full traversal each dequeue
-- enqueue: O(1) (amortized, linked list and array [probing])
-- dequeue: O(1) (linked list and array)
-- empty: O(1) (linked list and array)
- 
+_Time Complexity:_ O(1) for the all methods
+
 
 ## Hash-Table
 
