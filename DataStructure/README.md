@@ -14,12 +14,12 @@ contains
 7. Graphs [go]()
 8. Python DataStructure 
 
-## The 5 requirements of any data structure
+# 5 requirements of any data structure
 
 - How to **Access** _( one item / all item )_
 - How to **Insert** _( at end / at position )_
 - How to **Delete** _( from end / from position )_
-- How to **Fine** _( if exists / what location )_
+- How to **Find** _( if exists / what location )_
 - How to **Sort** _( sort in place / created sorted version )_
 
 <img src="https://user-images.githubusercontent.com/26381972/56885655-ef658000-6aa7-11e9-8c9d-493fa3c93f43.png" width="800px">
@@ -30,7 +30,7 @@ contains
 - This makes it easier to calculate the position of each element by simply adding an offset to a base value
 
 
-### Time complexity for Common Operations
+#### Time complexity of Array
 
 | at | Add | Remove |
 | :---: | :---: |:---: |
@@ -40,9 +40,9 @@ contains
 
 - Linear time to add/remove at an arbitrary location.
 - Constant-time to add/remove at the end.
-- Constant-time access to any element. _(with address)_
+- Constant-time access to any element. _(by address)_
 
-### Limitation of Array
+#### Limitation of Array
 1. The size of arrays is fixed. 
     - So we must know the upper limit on the number of elements in advance. 
     - Also, generally, the allocated memory is equal to the upper limit irrespective of the usage.
@@ -62,34 +62,25 @@ contains
 - [Jagged Arrays (video)](https://archive.org/details/0102WhatYouShouldKnow/02_06-jaggedArrays.mp4)
 - [Resizing arrays (video)](https://archive.org/details/0102WhatYouShouldKnow/03_01-resizableArrays.mp4)
 - [Internal working of list in Python](https://www.geeksforgeeks.org/internal-working-of-list-in-python/)
+- [MS doc: vector Class](https://docs.microsoft.com/en-us/cpp/standard-library/vector-class?view=vs-2019)
 
 </details>
 
+#### To-Do: Implement an automatically resizing vector0
 
-<details>
-<summary>To-Do: Implement an automatically resizing vector.</summary>
-
-[implementation in python](https://github.com/minh364/algorithms/blob/master/DataStructure/1_Array/1_Array.py)
-
-reference: [MS doc: vector Class](https://docs.microsoft.com/en-us/cpp/standard-library/vector-class?view=vs-2019)
-- Implement a vector (mutable array with automatic resizing):
-  - Practice coding using arrays and pointers, and pointer math to jump to an index instead of using indexing.
-  - new raw data array with allocated memory
-    - can allocate int array under the hood, just not use its features
-    - start with 16, or if starting number is greater, use power of 2 - 16, 32, 64, 128
-- methods:
-  - size() - number of items
-  - capacity() - number of items it can hold *
-  - is_empty()
-  - at(index) - returns item at given index, blows up if index out of bounds
-  - push(item)
-  - insert(index, item) - inserts item at index, shifts that index's value and trailing elements to the right
-  - prepend(item) - can use insert above at index 0
-  - pop() - remove from end, return value
-  - delete(index) - delete item at index, shifting all trailing elements left
-  - remove(item) - looks for value and removes index holding it (even if in multiple places)
-  - find(item) - looks for value and returns first index with that value, -1 if not found
-  - resize(new_capacity) // private function *
+- my solution [(code)](https://github.com/minh364/algorithms/blob/master/DataStructure/1_Array/1_Array.py)
+  - `size()` - number of items
+  - `capacity()` - number of items it can hold *
+  - `isEmpty()`
+  - `at(index)` - returns item at given index, blows up if index out of bounds
+  - `push(item)`
+  - `insert(index, item)` - inserts item at index, shifts that index's value and trailing elements to the right
+  - `prepend(item)` - can use insert above at index 0
+  - `pop()` - remove from end, return value
+  - `delete(index)` - delete item at index, shifting all trailing elements left
+  - `remove(item)` - looks for value and removes index holding it (even if in multiple places)
+  - `find(item)` - looks for value and returns first index with that value, -1 if not found
+  - `resize(new_capacity)` // private function *
     - when you reach capacity, resize to double the size
     - when popping an item, if size is 1/4 of capacity, resize to half
  
@@ -184,7 +175,7 @@ python built-in data structure `collections.deque` have methods
 
 |init|push()|pop()|
 |:---:|:---:|:---:|
-|`stack=deque()`|`stack.append(x)`|`stack.popleft()`|
+|`deque()`|`.append(x)`|`.popleft()`|
 
 <details>
 <summary>Resources :</summary>
@@ -196,33 +187,25 @@ python built-in data structure `collections.deque` have methods
 
 </details>
 
-<details>
-<summary>To-Do: Implement Queue using linked-list, with tail pointer:</summary>
-    
-- enqueue(value) - Add an element into the queue
-- dequeue() - Removes the front element from queue
-- front() - Return the front element
-- rear() - Return the last element
-- isEmpty() - return True if queue is empty else False
-- isFull() - return True if queue is full else False
-
-[my solution](https://github.com/hon9g/algorithms_and_datastructure/blob/master/DataStructure/queue/CircularQueueByArray.py)
+#### To-Do: Implement Queue using linked-list, with tail pointer
  
-</details>
+- my solution [(code)](https://github.com/hon9g/algorithms_and_datastructure/blob/master/DataStructure/queue/CircularQueueByArray.py)
+  - `enqueue(value)` - Add an element into the queue
+  - `dequeue()` - Removes the front element from queue
+  - `front()` - Return the front element
+  - `rear()` - Return the last element
+  - `isEmpty()` - return True if queue is empty else False
+  - `isFull()` - return True if queue is full else False
 
-<details>
-<summary>To-Do: Implement Queue using fixed-sized array:</summary>
-    
-- enqueue(value) - Add an element into the queue
-- dequeue() - Removes the front element from queue
-- front() - Return the front element
-- rear() - Return the last element
-- isEmpty() - return True if queue is empty else False
-- isFull() - return True if queue is full else False
+#### To-Do: Implement Queue using fixed-sized array
 
-[my solution](https://github.com/hon9g/algorithms_and_datastructure/blob/master/DataStructure/queue/CirculartQueueByLinkedList.py)
-
-</details>
+- my solution [(code)](https://github.com/hon9g/algorithms_and_datastructure/blob/master/DataStructure/queue/CirculartQueueByLinkedList.py)
+  - `enqueue(value)` - Add an element into the queue
+  - `dequeue()` - Removes the front element from queue
+  - `front()` - Return the front element
+  - `rear()` - Return the last element
+  - `isEmpty()` - return True if queue is empty else False
+  - `isFull()` - return True if queue is full else False
 
 _Time Complexity:_ O(1) for the all methods
 
@@ -460,7 +443,7 @@ Before start to dig in graphs
 # Python DataStructure
 
 | name | Data Type | Implemented as | mutable / immutable | support type |
-|: --- :|: --- :|: --- :|: --- :|: --- :|
+|:---:|:---:|:---:|:---:|:---:|
 | `array.array` | array | Basic array | mutable | everything, C-style typed array |
 | `list` | Dynamic array |  | mutable | everything |
 | `str` | Arrays of Unicode Characters |  | immutable | only `char` |
