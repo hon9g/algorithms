@@ -233,6 +233,8 @@ _Time Complexity:_ O(1) for the all methods
 - manipulation algorithms
 - [BFS(breadth-first search) and DFS(depth-first search) (video)](https://www.youtube.com/watch?v=uWL6FJhq5fM)
 
+</details>
+
 #### Breadth First Search
 - level order (BFS, using queue)
 - time complexity: O(n)
