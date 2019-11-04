@@ -1,19 +1,3 @@
-# DataStructure
-contains
-- references
-- implementation of each data structure
-- solution for interview question related each data structure
-
-0. Common Data Structure Operations
-1. Arrays [go](#Arrays)
-2. Linked Lists [go](#Linked_Lists)
-3. Stack [go]()
-4. Queue [go](#Queue)
-5. Hash Table [go]()
-6. Trees [go]()
-7. Graphs [go]()
-8. Python DataStructure 
-
 # 5 requirements of any data structure
 
 - How to **Access** _( one item / all item )_
@@ -22,6 +6,7 @@ contains
 - How to **Find** _( if exists / what location )_
 - How to **Sort** _( sort in place / created sorted version )_
 
+# DataStructures
 <img src="https://user-images.githubusercontent.com/26381972/56885655-ef658000-6aa7-11e9-8c9d-493fa3c93f43.png" width="800px">
 
 ## Arrays
@@ -47,25 +32,6 @@ contains
     - So we must know the upper limit on the number of elements in advance. 
     - Also, generally, the allocated memory is equal to the upper limit irrespective of the usage.
 
-
-
-<details>
-<summary>Resources :</summary>
-
-- [Arrays (video)](https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays)
-- [UC Berkeley CS61B - Linear and Multi-Dim Arrays (video)](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE) (Start watching from 15m 32s)
-- [Basic Arrays (video)](https://archive.org/details/0102WhatYouShouldKnow/02_04-basicArrays.mp4)
-- [Multi-dim (video)](https://archive.org/details/0102WhatYouShouldKnow/02_05-multidimensionalArrays.mp4)
-    - Definition of Multi-dimensional Array : an array of references to arrays/
-- [Dynamic Arrays (video)](https://www.coursera.org/learn/data-structures/lecture/EwbnV/dynamic-arrays)
-- [Jagged Arrays (video)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
-- [Jagged Arrays (video)](https://archive.org/details/0102WhatYouShouldKnow/02_06-jaggedArrays.mp4)
-- [Resizing arrays (video)](https://archive.org/details/0102WhatYouShouldKnow/03_01-resizableArrays.mp4)
-- [Internal working of list in Python](https://www.geeksforgeeks.org/internal-working-of-list-in-python/)
-- [MS doc: vector Class](https://docs.microsoft.com/en-us/cpp/standard-library/vector-class?view=vs-2019)
-
-</details>
-
 #### To-Do: Implement an automatically resizing vector0
 
 - my solution [(code)](https://github.com/minh364/algorithms/blob/master/DataStructure/1_Array/1_Array.py)
@@ -84,8 +50,22 @@ contains
     - when you reach capacity, resize to double the size
     - when popping an item, if size is 1/4 of capacity, resize to half
  
-</details>
+<details>
+<summary>Resources :</summary>
 
+- [Arrays (video)](https://www.coursera.org/learn/data-structures/lecture/OsBSF/arrays)
+- [UC Berkeley CS61B - Linear and Multi-Dim Arrays (video)](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE) (Start watching from 15m 32s)
+- [Basic Arrays (video)](https://archive.org/details/0102WhatYouShouldKnow/02_04-basicArrays.mp4)
+- [Multi-dim (video)](https://archive.org/details/0102WhatYouShouldKnow/02_05-multidimensionalArrays.mp4)
+    - Definition of Multi-dimensional Array : an array of references to arrays/
+- [Dynamic Arrays (video)](https://www.coursera.org/learn/data-structures/lecture/EwbnV/dynamic-arrays)
+- [Jagged Arrays (video)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
+- [Jagged Arrays (video)](https://archive.org/details/0102WhatYouShouldKnow/02_06-jaggedArrays.mp4)
+- [Resizing arrays (video)](https://archive.org/details/0102WhatYouShouldKnow/03_01-resizableArrays.mp4)
+- [Internal working of list in Python](https://www.geeksforgeeks.org/internal-working-of-list-in-python/)
+- [MS doc: vector Class](https://docs.microsoft.com/en-us/cpp/standard-library/vector-class?view=vs-2019)
+
+</details>
 
 
 ## Linked_Lists
@@ -93,6 +73,23 @@ contains
 - Like arrays, Linked List is a linear data structure. 
 - Unlike arrays, linked list elements are not stored at contiguous location; the elements are linked using pointers.
 
+#### To-Do: Implement a Linked List
+
+- methods
+    - size() - returns number of data elements in list
+    - empty() - bool returns true if empty
+    - value_at(index) - returns the value of the n-th item (starting at 0 for first)
+    - prepend(value) - adds an item to the front of the list
+    - append(value) - adds an item at the end
+    - pop_front() - remove front item and return its value
+    - pop() - removes end item and returns its value
+    - head() - get value of front item
+    - tail() - get value of end item
+    - insert(index, value) - insert value at index, so current item at that index is pointed to by new item at index
+    - remove(index) - removes node at given index
+    - value_n_from_end(n) - returns the value of the node at n-th position from the end of the list
+    - reverse() - reverses the list
+    - remove_value(value) - removes the first item in the list with this value
 
 <details>
 <summary>Resources :</summary>
@@ -118,27 +115,6 @@ contains
 
 </details>
 
-<details>
-<summary>To-Do: Implement a</summary>
-
-- implement (I did with tail pointer & without):
-    - size() - returns number of data elements in list
-    - empty() - bool returns true if empty
-    - value_at(index) - returns the value of the n-th item (starting at 0 for first)
-    - prepend(value) - adds an item to the front of the list
-    - append(value) - adds an item at the end
-    - pop_front() - remove front item and return its value
-    - pop() - removes end item and returns its value
-    - head() - get value of front item
-    - tail() - get value of end item
-    - insert(index, value) - insert value at index, so current item at that index is pointed to by new item at index
-    - remove(index) - removes node at given index
-    - value_n_from_end(n) - returns the value of the node at n-th position from the end of the list
-    - reverse() - reverses the list
-    - remove_value(value) - removes the first item in the list with this value
- 
-</details>
-
 
 ## Stack
 python built-in data structure `list` have methods
@@ -149,6 +125,10 @@ python built-in data structure `list` have methods
 |:---:|:---:|:---:|
 |`stack=list()` or `stack =[]`|`stack.append(x)`|`stack.pop()`|
 
+#### To-Do: Implement a stack with array
+
+- my solution[(code)](https://github.com/hon9g/algorithms_and_datastructure/blob/master/BOJ/10828스택.py)
+ 
 
 <details>
 <summary>Resources :</summary>
@@ -156,13 +136,6 @@ python built-in data structure `list` have methods
 - [Stacks (video)](https://www.coursera.org/learn/data-structures/lecture/UdKzQ/stacks)
 - [Using Stacks Last-In First-Out (video)](https://archive.org/details/0102WhatYouShouldKnow/05_01-usingStacksForLast-inFirst-out.mp4)
 
-</details>
-
-<details>
-<summary>To-Do: - Will not implement. Implementing with array is trivial. </summary>
-
-But I did it already in Python. [(code)](BOJ\10828스택.py)
- 
 </details>
 
 
@@ -212,6 +185,16 @@ _Time Complexity:_ O(1) for the all methods
 
 ## Hash-Table
 
+
+#### To-Do: Implement Hash-Table with array using linear probing
+
+- my solution []()
+    - hash(k, m) - m is size of hash table
+    - add(key, value) - if key already exists, update value
+    - exists(key)
+    - get(key)
+    - remove(key)
+ 
 <details>
 <summary>Resources :</summary>
 
@@ -237,27 +220,8 @@ _Time Complexity:_ O(1) for the all methods
 
 </details>
 
-<details>
-<summary>To-Do: Implement Hash-Table with array using linear probing: </summary>
-
-- hash(k, m) - m is size of hash table
-- add(key, value) - if key already exists, update value
-- exists(key)
-- get(key)
-- remove(key)
- 
-</details>
-<summary>To-Do 면접 문제: </summary>
-
-[중복이 없는가]()
-
-<details>
-
-
-</details>
 
 ## Trees
-
 
 <details>
 <summary>Resources :</summary>
@@ -268,23 +232,34 @@ _Time Complexity:_ O(1) for the all methods
 - traversal
 - manipulation algorithms
 - [BFS(breadth-first search) and DFS(depth-first search) (video)](https://www.youtube.com/watch?v=uWL6FJhq5fM)
-_BFS:_
+
+#### Breadth First Search
 - level order (BFS, using queue)
 - time complexity: O(n)
 - space complexity: best: O(1), worst: O(n/2)=O(n)
 
-_DFS:_
+#### Depth First Search
 - time complexity: O(n)
 - space complexity: best: O(log n) - avg. height of tree worst: O(n)
 - inorder (DFS: left, self, right)
 - postorder (DFS: left, right, self)
 - preorder (DFS: self, left, right)
 
-</details>
 
+## Binary Search Tree
+#### To-Do: Implement a Binary Search Tree</summary>
 
-### BST
-Binary Search Tree
+- insert // insert value into tree
+- get_node_count // get count of values stored
+- print_values // prints the values in the tree, from min to max
+- delete_tree
+- is_in_tree // returns true if given value exists in the tree
+- get_height // returns the height in nodes (single node's height is 1)
+- get_min // returns the minimum value stored in the tree
+- get_max // returns the maximum value stored in the tree
+- is_binary_search_tree
+- delete_value
+- get_successor // returns next-highest value in tree after given value, -1 if none
 
 <details>
 <summary>Resources :</summary>
@@ -307,26 +282,23 @@ Binary Search Tree
     - [Inorder Successor in a binary search tree (video)](https://www.youtube.com/watch?v=5cPbNCrdotA&index=37&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P)
 
 </details>
-
-<details>
-<summary>To-Do: Implement a Binary Search Tree</summary>
-
-insert // insert value into tree
-get_node_count // get count of values stored
-print_values // prints the values in the tree, from min to max
-delete_tree
-is_in_tree // returns true if given value exists in the tree
-get_height // returns the height in nodes (single node's height is 1)
-get_min // returns the minimum value stored in the tree
-get_max // returns the maximum value stored in the tree
-is_binary_search_tree
-delete_value
-get_successor // returns next-highest value in tree after given value, -1 if none
  
-</details>
 
-### Heap//Priority-Queue//Binary-Heap
+## Heap//Priority-Queue//Binary-Heap
 visualized as a tree, but is usually linear in storage (array, linked list)
+
+#### To-Do: Implement a max-heap
+- insert
+- sift_up - needed for insert
+- get_max - returns the max item, without removing it
+- get_size() - return number of elements stored
+- is_empty() - returns true if heap contains no elements
+- extract_max - returns the max item, removing it
+- sift_down - needed for extract_max
+- remove(i) - removes item at index x
+- heapify - create a heap from an array of elements, needed for heap_sort
+- heap_sort() - take an unsorted array and turn it into a sorted array in-place using a max heap
+    - note: using a min heap instead would save operations, but double the space needed (cannot do in-place).
 
 <details>
 <summary>Resources :</summary>
@@ -348,31 +320,8 @@ visualized as a tree, but is usually linear in storage (array, linked list)
 
 </details>
 
-<details>
-<summary>To-Do: Implement a max-heap:</summary>
-
-- insert
-- sift_up - needed for insert
-- get_max - returns the max item, without removing it
-- get_size() - return number of elements stored
-- is_empty() - returns true if heap contains no elements
-- extract_max - returns the max item, removing it
-- sift_down - needed for extract_max
-- remove(i) - removes item at index x
-- heapify - create a heap from an array of elements, needed for heap_sort
-- heap_sort() - take an unsorted array and turn it into a sorted array in-place using a max heap
-    - note: using a min heap instead would save operations, but double the space needed (cannot do in-place).
- 
-</details>
 
 ## Graphs
-
-<details>
-<summary>To-Do: Go for sorting algorithms </summary>
-
-Before start to dig in graphs
- 
-</details>
 
 <details>
 <summary>Resources :</summary>
@@ -419,26 +368,22 @@ Before start to dig in graphs
 
 </details>
 
-<details>
-<summary>To-Do: Implement </summary>
+#### To-Do:
+- DFS with adjacency list (recursive)
+- DFS with adjacency list (iterative with stack)
+- DFS with adjacency matrix (recursive)
+- DFS with adjacency matrix (iterative with stack)
+- BFS with adjacency list
+- BFS with adjacency matrix
+- single-source shortest path (Dijkstra)
+- minimum spanning tree
+- DFS-based algorithms (see Aduni videos above):
+    - check for cycle (needed for topological sort, since we'll check for cycle before starting)
+    - topological sort
+    - count connected components in a graph
+    - list strongly connected components
+    - check for bipartite graph
 
-- I'll implement:
-    - DFS with adjacency list (recursive)
-    - DFS with adjacency list (iterative with stack)
-    - DFS with adjacency matrix (recursive)
-    - DFS with adjacency matrix (iterative with stack)
-    - BFS with adjacency list
-    - BFS with adjacency matrix
-    - single-source shortest path (Dijkstra)
-    - minimum spanning tree
-    - DFS-based algorithms (see Aduni videos above):
-        - check for cycle (needed for topological sort, since we'll check for cycle before starting)
-        - topological sort
-        - count connected components in a graph
-        - list strongly connected components
-        - check for bipartite graph
- 
-</details>
 
 # Python DataStructure
 
@@ -450,5 +395,3 @@ Before start to dig in graphs
 | `collections.deque` | Double-ended queue | Doubly-linked list | mutable | everything |
 
 
-# Reference
-[Coding Interview University](https://github.com/jwasham/coding-interview-university)
