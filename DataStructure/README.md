@@ -73,23 +73,13 @@
 - Like arrays, Linked List is a linear data structure. 
 - Unlike arrays, linked list elements are not stored at contiguous location; the elements are linked using pointers.
 
-#### To-Do: Implement a Linked List
+#### To-Do: [Implement a Linked List](https://leetcode.com/problems/design-linked-list/)
 
-- methods
-    - size() - returns number of data elements in list
-    - empty() - bool returns true if empty
-    - value_at(index) - returns the value of the n-th item (starting at 0 for first)
-    - prepend(value) - adds an item to the front of the list
-    - append(value) - adds an item at the end
-    - pop_front() - remove front item and return its value
-    - pop() - removes end item and returns its value
-    - head() - get value of front item
-    - tail() - get value of end item
-    - insert(index, value) - insert value at index, so current item at that index is pointed to by new item at index
-    - remove(index) - removes node at given index
-    - value_n_from_end(n) - returns the value of the node at n-th position from the end of the list
-    - reverse() - reverses the list
-    - remove_value(value) - removes the first item in the list with this value
+- `get(idx)` : Get the value of the idx-th node in the linked list. If the index is invalid, return -1
+- `addAtHead(val)` : Add a node of value val before the first element of the linked list. After the val insertion, the new node will be the first node of the linked list.
+- `addAtTail(val)` : Append a node of value val to the last element of the linked list.
+- `addAtIndex(idx, val)` : Add a node of value val before the idx-th node in the linked list. If idx equals to the length of linked list, the node will be appended to the end of linked list. If idx is greater than the length, the node will not be inserted.
+- `deleteAtIndex(idx)` : Delete the idx-th node in the linked list, if the idx is valid.
 
 <details>
 <summary>Resources :</summary>
