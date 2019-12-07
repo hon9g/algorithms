@@ -233,6 +233,32 @@ def insertionSort(self, nums: List[int]) -> List[int]:
     return nums
 ```
 
+### Counting Sort
+
+| time complexity | space complexity |
+| :-------------: | :-------------: |
+`O(A+K)` | `O(K)`
+
+- condition: we have to know the range of the sorted values.
+1. Count the number of each unique elements in the array.
+2. Iterate through the array of counters in increasing order.
+
+```Python
+def countingSort(A: List[int],k: int) -> : List[int]:
+    # A is consisted with integers range 0 to k
+    n = len(A)
+    # We need additional memory O(k)
+    count = [0] * (k+1)
+    for i in range(n):
+        count[A[i]] += 1
+    inx = 0
+    for i in range(k+1):
+        for j in range(count[i]): # smaller than O(A)
+            A[inx] = i
+            inx += 1
+    return A
+```
+
 # Language
 
 Questions for choosing the right language for your coding interview
