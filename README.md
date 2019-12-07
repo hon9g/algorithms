@@ -1,14 +1,13 @@
 ![Python Versions](https://img.shields.io/pypi/pyversions/3.svg?style=flat-square)
 ## INDEX
-1. **Time Complexity**
-    - Of **Python built in function** [go](#TimeComplexity)
-    - Of **Sorting algorithms** [go](#Sorting)
+1. **Time Complexity** [go](#TimeComplexity)
 2. Data Structures with Python [go](#DataStructure)
-3. Solutions for programming problems
-    - **Codility** [go to solutions](/Codility/README.md)
-    - **Google KickStart** [go to solutions](kickStart/README.md)
-    - **BOJ** :kr: [go to solutions](BOJ/README.md)
-4. Language [go](#Language)
+3. Problem solving
+    - **Codility** [go](/Codility/README.md)
+    - **Google KickStart** [go](kickStart/README.md)
+    - **BOJ** :kr: [go](BOJ/README.md)
+4. **Sorting algorithms** [go](#Sorting)
+5. Language [go](#Language)
     - Choose the right language for your coding interview
     - Why I practice Python & C++
     - Python documentation
@@ -143,15 +142,56 @@ more:
 - In worst case, quick sort have O(n) size of call stack, and in best O(log n) size.
 
 
+### Bubble Sort
 
-| Algorithm | 
-| :-------------: | 
-| [Selection sort](https://github.com/minh364/algorithms/blob/master/Sorting/selectionSort.py) | 
-| [Quick sort](https://github.com/minh364/algorithms/blob/master/Sorting/quickSort.py) |  
-| [Merge sort](https://github.com/minh364/algorithms/blob/master/Sorting/mergeSort.py) | 
-| [Counting Sort]() | `O(n+k)` | | additional `O(k)` |
+| time complexity | space complexity |
+| :-------------: | :-------------: |
+`O(N^2)` | `O(1)`
 
+```Python
+def bubbleSort(self, nums: List[int]) -> List[int]:
+        N = len(nums) - 1
+        for i in range(N):
+            for j in range(N - i):
+                if nums[j] > nums[j + 1]:
+                    nums[j + 1], nums[j] = nums[j], nums[j + 1]
+        return nums
+```
 
+### Selection Sort
+
+| time complexity | space complexity |
+| :-------------: | :-------------: |
+`O(N^2)` | `O(1)`
+
+```Python
+def selectionSort(self, nums: List[int]) -> List[int]:
+        for i in range(len(nums)):
+            m = i
+            for j in range(i + 1, len(nums)):
+                if nums[j] < nums[m]:
+                    m = j
+            nums[m], nums[i] = nums[i], nums[m]
+        return nums
+```
+
+### Insertion Sort
+
+| time complexity | space complexity |
+| :-------------: | :-------------: |
+`O(N^2)` | `O(1)`
+
+```Python
+def insertionSort(self, nums: List[int]) -> List[int]:
+    for i in range(1, len(nums)):
+        curr = i
+        for j in reversed(range(i)):
+            if nums[j] <= nums[curr]:
+                break
+            nums[j], nums[curr] = nums[curr], nums[j]
+            curr -= 1
+    return nums
+```
 
 # Language
 
