@@ -1,21 +1,40 @@
 ![Python Versions](https://img.shields.io/pypi/pyversions/3.svg?style=flat-square)
-## INDEX
-1. **Time Complexity** [go](#TimeComplexity)
-2. Data Structures with Python [go](#DataStructure)
-3. Problem solving
-    - **Codility** [go](/Codility/README.md)
-    - **Google KickStart** [go](kickStart/README.md)
-    - **BOJ** :kr: [go](BOJ/README.md)
-4. **Sorting algorithms** [go](#Sorting)
-5. Language [go](#Language)
-    - Choose the right language for your coding interview
-    - Why I practice Python & C++
-    - Python documentation
-    - C++ documentation
 
-### To-Do
-- Consider various task cases
-- Get to know Time complexity of Python built in function
+## INDEX
+- **Choose Language for coding interview** [:link:](#Language)
+- **Consider Time Complexity** [:link:](#TimeComplexity)
+- **Implement Data Structures** [:link:](#DataStructure)
+- **Implement Sorting algorithms** [:link:](#Sorting)
+  - Quick Sort
+  - Merge Sort
+  - Bubble Sort
+  - Insertion Sort
+  - Selection Sort
+  - Counting Sort
+- **Problem solving**
+  - LeetCode [:link:](https://github.com/hon9g/algorithms/tree/master/LeetCode)
+  - Codility [:link:](https://github.com/hon9g/algorithms/tree/master/Codility)
+  - Google KickStart [:link:](https://github.com/hon9g/algorithms/tree/master/kickStart)
+  - BOJ [:link:](https://github.com/hon9g/algorithms/tree/master//BOJ)
+  - Programmers [:link:](https://github.com/hon9g/algorithms/tree/master/Programmers)
+
+# Language
+
+Questions for choosing the right language for your coding interview
+1. Are you interviewing for a language-specific job?
+2. What is your best language?
+3. How easy is it to solve algorithmic problems in the language?
+4. Is the language easy to understand for people who don’t know it?
+5. Do they use that language at the company?
+
+<details>
+<summary>Resources:</summary>
+
+- [Choose the right language for your coding interview](https://www.byte-by-byte.com/choose-the-right-language-for-your-coding-interview/)
+- [Choosing a Programming Language for Interviews](http://blog.codingforinterviews.com/best-programming-language-jobs/)
+- [Programming Language Resources](https://github.com/jwasham/coding-interview-university/blob/master/programming-language-resources.md)
+
+</details>
 
 # TimeComplexity
 **Expected time complexity** to perform the operation on the `data limit N` within the `time limit of 1 to 10 seconds` is as follows.
@@ -50,9 +69,9 @@
 
 </details>
 
-## Time complexity of Python built-in Functions
+# Time complexity of Python built-in Functions
 
-### list
+## list
 
 | operation  | example | time complexity |
 | :-------------: | :-------------: | :-------------: |
@@ -83,7 +102,7 @@
 
 - `Dictionary.pop(i)` takes O(1)
 
-### collections.deque
+## collections.deque
 
 | operation  | example | time complexity |
 | :-------------: | :-------------: | :-------------: |
@@ -97,7 +116,7 @@
 |rotate|`.rotate(n)`|O(k)|
 |remove|`.remove(x)`|O(n)|
 
-### set
+## set
 
 | operation  | example | time complexity |
 | :-------------: | :-------------: | :-------------: | 
@@ -116,7 +135,7 @@ Difference    |`s - t`        | O(len(s)+len(t))
 Symmetric Diff|`s ^ t`        | O(len(s)+len(t))
 Copy          |`s.copy()`     | O(N)	     |
 
-### Dictionary
+## Dictionary
 
 | operation  | example | time complexity |
 | :-------------: | :-------------: | :-------------: |
@@ -138,7 +157,7 @@ more:
 # Sorting
 <img src="https://user-images.githubusercontent.com/26381972/56885690-05734080-6aa8-11e9-9c88-118c73eb68d8.png" width="500px">
 
-### Quick Sort
+## Quick Sort
 
 || time complexity | space complexity |
 | :-------------: | :-------------: | :-------------: |
@@ -156,8 +175,7 @@ def quickSort(self, nums: List[int]) -> List[int]:
     return self.quickSort(lower)+ same + self.quickSort(higher)
 ```
 
-
-### Merge Sort
+## Merge Sort
 
 || time complexity | space complexity |
 | :-------------: | :-------------: | :-------------: |
@@ -182,7 +200,7 @@ def mergeSort(self, nums: List[int]) -> List[int]:
     return res
 ```
 
-### Bubble Sort
+## Bubble Sort
 
 | time complexity | space complexity |
 | :-------------: | :-------------: |
@@ -198,24 +216,7 @@ def bubbleSort(self, nums: List[int]) -> List[int]:
         return nums
 ```
 
-### Selection Sort
-
-| time complexity | space complexity |
-| :-------------: | :-------------: |
-`O(N^2)` | `O(1)`
-
-```Python
-def selectionSort(self, nums: List[int]) -> List[int]:
-        for i in range(len(nums)):
-            m = i
-            for j in range(i + 1, len(nums)):
-                if nums[j] < nums[m]:
-                    m = j
-            nums[m], nums[i] = nums[i], nums[m]
-        return nums
-```
-
-### Insertion Sort
+## Insertion Sort
 
 | time complexity | space complexity |
 | :-------------: | :-------------: |
@@ -233,7 +234,24 @@ def insertionSort(self, nums: List[int]) -> List[int]:
     return nums
 ```
 
-### Counting Sort
+## Selection Sort
+
+| time complexity | space complexity |
+| :-------------: | :-------------: |
+`O(N^2)` | `O(1)`
+
+```Python
+def selectionSort(self, nums: List[int]) -> List[int]:
+        for i in range(len(nums)):
+            m = i
+            for j in range(i + 1, len(nums)):
+                if nums[j] < nums[m]:
+                    m = j
+            nums[m], nums[i] = nums[i], nums[m]
+        return nums
+```
+
+## Counting Sort
 
 | time complexity | space complexity |
 | :-------------: | :-------------: |
@@ -258,41 +276,3 @@ def countingSort(A: List[int],k: int) -> : List[int]:
             inx += 1
     return A
 ```
-
-# Language
-
-Questions for choosing the right language for your coding interview
-1. Are you interviewing for a language-specific job?
-2. What is your best language?
-3. How easy is it to solve algorithmic problems in the language?
-4. Is the language easy to understand for people who don’t know it?
-5. Do they use that language at the company?
-
-<details>
-<summary>Resources:</summary>
-
-- [Choose the right language for your coding interview](https://www.byte-by-byte.com/choose-the-right-language-for-your-coding-interview/)
-- [Choosing a Programming Language for Interviews](http://blog.codingforinterviews.com/best-programming-language-jobs/)
-- [Programming Language Resources](https://github.com/jwasham/coding-interview-university/blob/master/programming-language-resources.md)
-
-</details>
-
-## Python
-
-<details>
-<summary>Python Documentations:</summary>
-
-- [Python Official docs](https://docs.python.org/3/library/index.html)
-
-</details>
-
-## C++
-
-<details>
-<summary>C++ Documentations:</summary>
-
-- [C++ Official docs](http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines)
-- [C++ documentation from devdocs.io ](https://devdocs.io/cpp/)
-- [C++ docs and tutorials from cplusplus](http://www.cplusplus.com/)
-
-</details>
