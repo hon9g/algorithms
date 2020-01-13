@@ -1,20 +1,13 @@
-# Created by https://www.gitignore.io/api/python
-# Edit at https://www.gitignore.io/?templates=python
-
 ## Private  ##
-CodeJam_IO_Women2019/
-kickStart/2019_kickStartAlarm.py
-kickStart/test.py
-kickStart/2018H_BigButtons.py
+
+### VSC ###
+.vscode/
 
 ### Python ###
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
-
-# C extensions
-*.so
 
 # Distribution / packaging
 .Python
