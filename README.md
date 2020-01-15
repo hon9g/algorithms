@@ -1,4 +1,5 @@
-![Python Versions](https://img.shields.io/pypi/pyversions/3.svg?style=flat-square)
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![JS](https://img.shields.io/badge/JavaScript-es6-orange)
 
 ## INDEX
 - **Choose Language for coding interview** [:link:](#Language)
