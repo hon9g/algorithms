@@ -3,6 +3,7 @@
 | # | problem | my solution |
 |:---:|:---:|:---:|
 14| **Longest Common Prefix** | [✔️](https://github.com/hon9g/algorithms/issues/24#issuecomment-573751237)
+26|**Remove Duplicates from Sorted Array**| [✔️](https://github.com/hon9g/algorithms/issues/24#issuecomment-574772792)
 27| **Remove Element** | [✔️](https://github.com/hon9g/algorithms/issues/24#issuecomment-574554059)
 28| **Implement strStr()** | [✔️](https://github.com/hon9g/algorithms/issues/24#issuecomment-573746961)
 54|  **Spiral Matrix** |  [✔️](https://github.com/hon9g/algorithms/issues/24#issuecomment-573666463)
@@ -13,6 +14,7 @@
 167| **Two Sum II - Input array is sorted** | [✔️](https://github.com/hon9g/algorithms/issues/24#issuecomment-574212898)
 189| **Rotate Array** |  [✔️](https://github.com/hon9g/algorithms/issues/24#issuecomment-574772542)
 209| **Minimum Size Subarray Sum** | [✔️](https://github.com/hon9g/algorithms/issues/24#issuecomment-574554120)
+283|**Move Zeroes**| [✔️](https://github.com/hon9g/algorithms/issues/24#issuecomment-577717823)
 344| **Reverse String** | [✔️](https://github.com/hon9g/algorithms/issues/24#issuecomment-574159064)
 485| **Max Consecutive Ones** | [✔️](https://github.com/hon9g/algorithms/issues/24#issuecomment-574554094)
 498| **Diagonal Traverse** | [✔️](https://github.com/hon9g/algorithms/issues/24#issuecomment-573666146)
