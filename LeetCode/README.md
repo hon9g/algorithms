@@ -15,6 +15,7 @@
 189| **Rotate Array** |  [✔️](https://github.com/hon9g/algorithms/issues/24#issuecomment-574772542)
 209| **Minimum Size Subarray Sum** | [✔️](https://github.com/hon9g/algorithms/issues/24#issuecomment-574554120)
 283|**Move Zeroes**| [✔️](https://github.com/hon9g/algorithms/issues/24#issuecomment-577717823)
+286| **Walls and Gates**| [✔️](https://github.com/hon9g/algorithms/issues/25#issuecomment-578010009)
 344| **Reverse String** | [✔️](https://github.com/hon9g/algorithms/issues/24#issuecomment-574159064)
 346|**Moving Average from Data Stream**| [✔️](https://github.com/hon9g/algorithms/issues/25#issuecomment-578009995)
 485| **Max Consecutive Ones** | [✔️](https://github.com/hon9g/algorithms/issues/24#issuecomment-574554094)
