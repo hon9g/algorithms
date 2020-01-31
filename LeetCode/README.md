@@ -3,6 +3,7 @@
 | # | problem | my solution |
 |:---:|:---:|:---:|
 14| **Longest Common Prefix** | [✔️](https://github.com/hon9g/algorithms/issues/24#issuecomment-573751237)
+20|**Valid Parentheses**| [✔️](https://github.com/hon9g/algorithms/issues/25#issuecomment-580611002)
 26| **Remove Duplicates from Sorted Array**| [✔️](https://github.com/hon9g/algorithms/issues/24#issuecomment-574772792)
 27| **Remove Element** | [✔️](https://github.com/hon9g/algorithms/issues/24#issuecomment-574554059)
 28| **Implement strStr()** | [✔️](https://github.com/hon9g/algorithms/issues/24#issuecomment-573746961)
@@ -10,7 +11,9 @@
 66| **Plus One** | [✔️](https://github.com/hon9g/algorithms/issues/24#issuecomment-573636502)
 67| **Add Binary** | [✔️](https://github.com/hon9g/algorithms/issues/24#issuecomment-573667526)
 118|**Pascal's Triangle** | [✔️](https://github.com/hon9g/algorithms/issues/24#issuecomment-573666829)
+150|**Evaluate Reverse Polish Notation**|[✔️](https://github.com/hon9g/algorithms/issues/25#issuecomment-580611028)
 151|**Reverse Words in a String**|  [✔️](https://github.com/hon9g/algorithms/issues/24#issuecomment-574772573)
+155|**Min Stack**| [✔️](https://github.com/hon9g/algorithms/issues/25#issuecomment-579678877)
 167|**Two Sum II - Input array is sorted** | [✔️](https://github.com/hon9g/algorithms/issues/24#issuecomment-574212898)
 189|**Rotate Array** |  [✔️](https://github.com/hon9g/algorithms/issues/24#issuecomment-574772542)
 200|**Number of Islands**| [✔️](https://github.com/hon9g/algorithms/issues/25#issuecomment-579678757)
@@ -26,5 +29,6 @@
 561|**Array Partition I** | [✔️](https://github.com/hon9g/algorithms/issues/24#issuecomment-574168408)
 622|**Design Circular Queue**| [✔️](https://github.com/hon9g/algorithms/issues/25#issuecomment-578009877)
 724| **Find Pivot Index** |  [✔️](https://github.com/hon9g/algorithms/issues/24#issuecomment-573635631)
+739|**Daily Temperatures**| [✔️](https://github.com/hon9g/algorithms/issues/25#issuecomment-580611011)
 747|**Largest Number At Least Twice of Others** | [✔️](https://github.com/hon9g/algorithms/issues/24#issuecomment-573636033)
 752|**Open the Lock**| [✔️](https://github.com/hon9g/algorithms/issues/25#issuecomment-579678770)
