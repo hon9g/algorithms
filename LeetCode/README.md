@@ -2,6 +2,7 @@
 
 | # | problem | my solution |
 |:---:|:---:|:---:|
+1|**Two Sum**| [✔️](https://github.com/hon9g/algorithms/issues/26#issuecomment-583721284)
 14| **Longest Common Prefix** | [✔️](https://github.com/hon9g/algorithms/issues/24#issuecomment-573751237)
 20|**Valid Parentheses**| [✔️](https://github.com/hon9g/algorithms/issues/25#issuecomment-580611002)
 26| **Remove Duplicates from Sorted Array**| [✔️](https://github.com/hon9g/algorithms/issues/24#issuecomment-574772792)
@@ -32,7 +33,7 @@
 346|**Moving Average from Data Stream**| [✔️](https://github.com/hon9g/algorithms/issues/25#issuecomment-578009995)
 349|**Intersection of Two Arrays**| [✔️](https://github.com/hon9g/algorithms/issues/26#issuecomment-583719909)
 394|**Decode String**|[✔️](https://github.com/hon9g/algorithms/issues/25#issuecomment-582726413)
-485|**Max Consecutive Ones** | [✔️](https://github.com/hon9g/algorithms/issues/24#issuecomment-574554094)
+485|**Max Consecutive Ones** | [✔️](htcdtps://github.com/hon9g/algorithms/issues/24#issuecomment-574554094)
 494|**Target Sum**| [✔️](https://github.com/hon9g/algorithms/issues/25#issuecomment-582245012)
 498|**Diagonal Traverse** | [✔️](https://github.com/hon9g/algorithms/issues/24#issuecomment-573666146)
 542|**01 Matrix**|[✔️](https://github.com/hon9g/algorithms/issues/25#issuecomment-582758889)
