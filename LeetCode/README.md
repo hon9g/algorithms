@@ -33,6 +33,7 @@
 344|**Reverse String** | [✔️](https://github.com/hon9g/algorithms/issues/24#issuecomment-574159064)
 346|**Moving Average from Data Stream**| [✔️](https://github.com/hon9g/algorithms/issues/25#issuecomment-578009995)
 349|**Intersection of Two Arrays**| [✔️](https://github.com/hon9g/algorithms/issues/26#issuecomment-583719909)
+387|**First Unique Character in a String**| [✔️](https://github.com/hon9g/algorithms/issues/26#issuecomment-586411668)
 394|**Decode String**|[✔️](https://github.com/hon9g/algorithms/issues/25#issuecomment-582726413)
 485|**Max Consecutive Ones** | [✔️](htcdtps://github.com/hon9g/algorithms/issues/24#issuecomment-574554094)
 494|**Target Sum**| [✔️](https://github.com/hon9g/algorithms/issues/25#issuecomment-582245012)
