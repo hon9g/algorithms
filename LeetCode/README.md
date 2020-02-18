@@ -40,6 +40,7 @@
 542|**01 Matrix**|[✔️](https://github.com/hon9g/algorithms/issues/25#issuecomment-582758889)
 557|**Reverse Words in a String III**|  [✔️](https://github.com/hon9g/algorithms/issues/24#issuecomment-574772594)
 561|**Array Partition I** | [✔️](https://github.com/hon9g/algorithms/issues/24#issuecomment-574168408)
+599|**Minimum Index Sum of Two Lists**| [✔️](https://github.com/hon9g/algorithms/issues/26#issuecomment-586411645)
 622|**Design Circular Queue**| [✔️](https://github.com/hon9g/algorithms/issues/25#issuecomment-578009877)
 705|**Design HashSet**| [✔️](https://github.com/hon9g/algorithms/issues/26#issuecomment-583719895)
 706|**Design HashMap**| [✔️](https://github.com/hon9g/algorithms/issues/26#issuecomment-583719899)s
