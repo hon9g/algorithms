@@ -22,6 +22,7 @@
 189|**Rotate Array** |  [✔️](https://github.com/hon9g/algorithms/issues/24#issuecomment-574772542)
 200|**Number of Islands**| [✔️](https://github.com/hon9g/algorithms/issues/25#issuecomment-579678757)
 202|**Happy Number**| [✔️](https://github.com/hon9g/algorithms/issues/26#issuecomment-583721281)
+205|**Isomorphic Strings**|[✔️](https://github.com/hon9g/algorithms/issues/26#issuecomment-583721289)
 209|**Minimum Size Subarray Sum** | [✔️](https://github.com/hon9g/algorithms/issues/24#issuecomment-574554120)
 217|**Contains Duplicate**| [✔️](https://github.com/hon9g/algorithms/issues/26#issuecomment-583719902)
 225|**Implement Stack using Queues**|[✔️](https://github.com/hon9g/algorithms/issues/
