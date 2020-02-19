@@ -8,6 +8,7 @@
 26| **Remove Duplicates from Sorted Array**| [✔️](https://github.com/hon9g/algorithms/issues/24#issuecomment-574772792)
 27| **Remove Element** | [✔️](https://github.com/hon9g/algorithms/issues/24#issuecomment-574554059)
 28| **Implement strStr()** | [✔️](https://github.com/hon9g/algorithms/issues/24#issuecomment-573746961)
+49|**Group Anagrams**| [✔️](https://github.com/hon9g/algorithms/issues/26#issuecomment-586414634)
 54| **Spiral Matrix** |  [✔️](https://github.com/hon9g/algorithms/issues/24#issuecomment-573666463)
 66| **Plus One** | [✔️](https://github.com/hon9g/algorithms/issues/24#issuecomment-573636502)
 67| **Add Binary** | [✔️](https://github.com/hon9g/algorithms/issues/24#issuecomment-573667526)
