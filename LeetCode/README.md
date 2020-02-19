@@ -29,6 +29,7 @@
 219|**Contains Duplicate II**| [✔️](https://github.com/hon9g/algorithms/issues/26#issuecomment-586414574)
 225|**Implement Stack using Queues**|[✔️](https://github.com/hon9g/algorithms/issues/
 232|**Implement Queue using Stacks**|[✔️](https://github.com/hon9g/algorithms/issues/25#issuecomment-582245095)25#issuecomment-582245122)
+249|**Group Shifted Strings**| [✔️](https://github.com/hon9g/algorithms/issues/26#issuecomment-587553808)
 279|**Perfect Squares**| [✔️](https://github.com/hon9g/algorithms/issues/25#issuecomment-579678851)
 283|**Move Zeroes**| [✔️](https://github.com/hon9g/algorithms/issues/24#issuecomment-577717823)
 286|**Walls and Gates**| [✔️](https://github.com/hon9g/algorithms/issues/25#issuecomment-578010009)
