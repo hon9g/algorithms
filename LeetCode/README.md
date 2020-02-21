@@ -57,4 +57,5 @@
 739|**Daily Temperatures**| [✔️](https://github.com/hon9g/algorithms/issues/25#issuecomment-580611011)
 747|**Largest Number At Least Twice of Others** | [✔️](https://github.com/hon9g/algorithms/issues/24#issuecomment-573636033)
 752|**Open the Lock**| [✔️](https://github.com/hon9g/algorithms/issues/25#issuecomment-579678770)
+771|**Jewels and Stones**| [✔️](https://github.com/hon9g/algorithms/issues/26#issuecomment-587553881)
 841|**Keys and Rooms**|[✔️](https://github.com/hon9g/algorithms/issues/25#issuecomment-582758900)
