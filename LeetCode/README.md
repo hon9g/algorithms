@@ -38,6 +38,7 @@
 286|**Walls and Gates**| [✔️](https://github.com/hon9g/algorithms/issues/25#issuecomment-578010009)
 344|**Reverse String** | [✔️](https://github.com/hon9g/algorithms/issues/24#issuecomment-574159064)
 346|**Moving Average from Data Stream**| [✔️](https://github.com/hon9g/algorithms/issues/25#issuecomment-578009995)
+347|**Top K Frequent Elements**|[✔️](https://github.com/hon9g/algorithms/issues/26#issuecomment-587558878)
 349|**Intersection of Two Arrays**| [✔️](https://github.com/hon9g/algorithms/issues/26#issuecomment-583719909)
 350|**Intersection of Two Arrays II**| [✔️](https://github.com/hon9g/algorithms/issues/26#issuecomment-586414551)
 359|**Logger Rate Limiter**| [✔️](https://github.com/hon9g/algorithms/issues/26#issuecomment-586414606)
