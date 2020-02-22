@@ -43,6 +43,7 @@
 349|**Intersection of Two Arrays**| [✔️](https://github.com/hon9g/algorithms/issues/26#issuecomment-583719909)
 350|**Intersection of Two Arrays II**| [✔️](https://github.com/hon9g/algorithms/issues/26#issuecomment-586414551)
 359|**Logger Rate Limiter**| [✔️](https://github.com/hon9g/algorithms/issues/26#issuecomment-586414606)
+380|**Insert Delete GetRandom O(1)**| [✔️](https://github.com/hon9g/algorithms/issues/26#issuecomment-587558925)
 387|**First Unique Character in a String**| [✔️](https://github.com/hon9g/algorithms/issues/26#issuecomment-586411668)
 394|**Decode String**|[✔️](https://github.com/hon9g/algorithms/issues/25#issuecomment-582726413)
 454|**4Sum II**|[✔️](https://github.com/hon9g/algorithms/issues/26#issuecomment-587558855)
