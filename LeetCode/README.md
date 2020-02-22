@@ -3,6 +3,7 @@
 | # | problem | my solution |
 |:---:|:---:|:---:|
 1|**Two Sum**| [✔️](https://github.com/hon9g/algorithms/issues/26#issuecomment-583721284)
+3|**Longest Substring Without Repeating Characters**|[✔️](https://github.com/hon9g/algorithms/issues/26#issuecomment-587558793)
 14| **Longest Common Prefix** | [✔️](https://github.com/hon9g/algorithms/issues/24#issuecomment-573751237)
 20|**Valid Parentheses**| [✔️](https://github.com/hon9g/algorithms/issues/25#issuecomment-580611002)
 26| **Remove Duplicates from Sorted Array**| [✔️](https://github.com/hon9g/algorithms/issues/24#issuecomment-574772792)
@@ -21,6 +22,7 @@
 151|**Reverse Words in a String**|  [✔️](https://github.com/hon9g/algorithms/issues/24#issuecomment-574772573)
 155|**Min Stack**| [✔️](https://github.com/hon9g/algorithms/issues/25#issuecomment-579678877)
 167|**Two Sum II - Input array is sorted** | [✔️](https://github.com/hon9g/algorithms/issues/24#issuecomment-574212898)
+170|**Two Sum III - Data structure design**|[✔️](https://github.com/hon9g/algorithms/issues/26#issuecomment-587558814)
 189|**Rotate Array** |  [✔️](https://github.com/hon9g/algorithms/issues/24#issuecomment-574772542)
 200|**Number of Islands**| [✔️](https://github.com/hon9g/algorithms/issues/25#issuecomment-579678757)
 202|**Happy Number**| [✔️](https://github.com/hon9g/algorithms/issues/26#issuecomment-583721281)
