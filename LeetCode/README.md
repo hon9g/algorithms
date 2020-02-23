@@ -30,8 +30,8 @@
 209|**Minimum Size Subarray Sum** | [✔️](https://github.com/hon9g/algorithms/issues/24#issuecomment-574554120)
 217|**Contains Duplicate**| [✔️](https://github.com/hon9g/algorithms/issues/26#issuecomment-583719902)
 219|**Contains Duplicate II**| [✔️](https://github.com/hon9g/algorithms/issues/26#issuecomment-586414574)
-225|**Implement Stack using Queues**|[✔️](https://github.com/hon9g/algorithms/issues/
-232|**Implement Queue using Stacks**|[✔️](https://github.com/hon9g/algorithms/issues/25#issuecomment-582245095)25#issuecomment-582245122)
+225|**Implement Stack using Queues**|[✔️](https://github.com/hon9g/algorithms/issues/25#issuecomment-582245122)
+232|**Implement Queue using Stacks**|[✔️](https://github.com/hon9g/algorithms/issues/25#issuecomment-582245095)
 249|**Group Shifted Strings**| [✔️](https://github.com/hon9g/algorithms/issues/26#issuecomment-587553808)
 279|**Perfect Squares**| [✔️](https://github.com/hon9g/algorithms/issues/25#issuecomment-579678851)
 283|**Move Zeroes**| [✔️](https://github.com/hon9g/algorithms/issues/24#issuecomment-577717823)
@@ -57,7 +57,7 @@
 622|**Design Circular Queue**| [✔️](https://github.com/hon9g/algorithms/issues/25#issuecomment-578009877)
 652|**Find Duplicate Subtrees**| [✔️](https://github.com/hon9g/algorithms/issues/26#issuecomment-587553856)
 705|**Design HashSet**| [✔️](https://github.com/hon9g/algorithms/issues/26#issuecomment-583719895)
-706|**Design HashMap**| [✔️](https://github.com/hon9g/algorithms/issues/26#issuecomment-583719899)s
+706|**Design HashMap**| [✔️](https://github.com/hon9g/algorithms/issues/26#issuecomment-583719899)
 724| **Find Pivot Index** |  [✔️](https://github.com/hon9g/algorithms/issues/24#issuecomment-573635631)
 733|**Flood Fill**|[✔️](https://github.com/hon9g/algorithms/issues/25#issuecomment-582758869)
 739|**Daily Temperatures**| [✔️](https://github.com/hon9g/algorithms/issues/25#issuecomment-580611011)
@@ -65,4 +65,4 @@
 752|**Open the Lock**| [✔️](https://github.com/hon9g/algorithms/issues/25#issuecomment-579678770)
 771|**Jewels and Stones**| [✔️](https://github.com/hon9g/algorithms/issues/26#issuecomment-587553881)
 841|**Keys and Rooms**|[✔️](https://github.com/hon9g/algorithms/issues/25#issuecomment-582758900)
-1360|**Number of Days Between Two Dates**|[✔️](https://leetcode.com/problems/number-of-days-between-two-dates/discuss/518189/40-ms-faster-than-100.00-of-JS-2-lines)[✔️](https://leetcode.com/problems/number-of-days-between-two-dates/discuss/518248/Readable-Hard-Code-JS)
+1360|**Number of Days Between Two Dates**|using Date 2-liner[✔️](https://leetcode.com/problems/number-of-days-between-two-dates/discuss/518189/40-ms-faster-than-100.00-of-JS-2-lines) Hard Coded[✔️](https://leetcode.com/problems/number-of-days-between-two-dates/discuss/518248/Readable-Hard-Code-JS)
