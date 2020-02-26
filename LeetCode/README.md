@@ -19,6 +19,8 @@
 122|**Best Time to Buy and Sell Stock II**| [✔️](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/discuss/520289/48ms-98.75-of-JS)
 133|**Clone Graph**|[✔️](https://github.com/hon9g/algorithms/issues/25#issuecomment-581778667)
 136|**Single Number**| [✔️](https://github.com/hon9g/algorithms/issues/26#issuecomment-583719906)
+141|**Linked List Cycle**|[✔️](https://github.com/hon9g/algorithms/issues/27#issuecomment-589912860)
+142|**Linked List Cycle II**|[✔️](https://github.com/hon9g/algorithms/issues/27#issuecomment-589912865)
 150|**Evaluate Reverse Polish Notation**|[✔️](https://github.com/hon9g/algorithms/issues/25#issuecomment-580611028)
 151|**Reverse Words in a String**|  [✔️](https://github.com/hon9g/algorithms/issues/24#issuecomment-574772573)
 155|**Min Stack**| [✔️](https://github.com/hon9g/algorithms/issues/25#issuecomment-579678877)
