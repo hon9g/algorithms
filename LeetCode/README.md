@@ -8,6 +8,7 @@
 14| **Longest Common Prefix** | [✔️](https://github.com/hon9g/algorithms/issues/24#issuecomment-573751237)
 19|**Remove Nth Node From End of List**|[✔️](https://github.com/hon9g/algorithms/issues/27#issuecomment-589912870)
 20|**Valid Parentheses**| [✔️](https://github.com/hon9g/algorithms/issues/25#issuecomment-580611002)
+21|**Merge Two Sorted Lists**| [✔️](https://github.com/hon9g/algorithms/issues/27#issuecomment-589912889)
 26| **Remove Duplicates from Sorted Array**| [✔️](https://github.com/hon9g/algorithms/issues/24#issuecomment-574772792)
 27| **Remove Element** | [✔️](https://github.com/hon9g/algorithms/issues/24#issuecomment-574554059)
 28| **Implement strStr()** | [✔️](https://github.com/hon9g/algorithms/issues/24#issuecomment-573746961)
