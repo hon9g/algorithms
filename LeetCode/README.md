@@ -77,3 +77,4 @@
 771|**Jewels and Stones**| [✔️](https://github.com/hon9g/algorithms/issues/26#issuecomment-587553881)
 841|**Keys and Rooms**|[✔️](https://github.com/hon9g/algorithms/issues/25#issuecomment-582758900)
 1360|**Number of Days Between Two Dates**|[✔️](https://leetcode.com/problems/number-of-days-between-two-dates/discuss/518189/40-ms-faster-than-100.00-of-JS-2-lines)[✔️](https://leetcode.com/problems/number-of-days-between-two-dates/discuss/518248/Readable-Hard-Code-JS)
+1366|**Rank Teams by Votes**|[✔️](https://leetcode.com/problems/rank-teams-by-votes/discuss/525172/JavaScript-O(N)-Hash-Table)
