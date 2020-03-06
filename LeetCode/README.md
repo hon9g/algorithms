@@ -51,8 +51,8 @@
 209|**Minimum Size Subarray Sum** | [✔️](https://github.com/hon9g/algorithms/issues/24#issuecomment-574554120)
 217|**Contains Duplicate**| [✔️](https://github.com/hon9g/algorithms/issues/26#issuecomment-583719902)
 219|**Contains Duplicate II**| [✔️](https://github.com/hon9g/algorithms/issues/26#issuecomment-586414574)
-225|**Implement Stack using Queues**|[✔️](https://github.com/hon9g/algorithms/issues/
-232|**Implement Queue using Stacks**|[✔️](https://github.com/hon9g/algorithms/issues/25#issuecomment-582245095)25#issuecomment-582245122)
+225|**Implement Stack using Queues**|[✔️](https://github.com/hon9g/algorithms/issues/25#issuecomment-582245122)
+232|**Implement Queue using Stacks**|[✔️](https://github.com/hon9g/algorithms/issues/25#issuecomment-582245095)
 234|**Palindrome Linked List**| [✔️](https://github.com/hon9g/algorithms/issues/27#issuecomment-589912888)
 249|**Group Shifted Strings**| [✔️](https://github.com/hon9g/algorithms/issues/26#issuecomment-587553808)
 250|**Count Univalue Subtrees**|[✔️](https://github.com/hon9g/algorithms/issues/28#issuecomment-593251883)
