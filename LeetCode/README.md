@@ -99,3 +99,5 @@
 1360|**Number of Days Between Two Dates**|[✔️](https://leetcode.com/problems/number-of-days-between-two-dates/discuss/518189/40-ms-faster-than-100.00-of-JS-2-lines)[✔️](https://leetcode.com/problems/number-of-days-between-two-dates/discuss/518248/Readable-Hard-Code-JS)
 1366|**Rank Teams by Votes**|[✔️](https://leetcode.com/problems/rank-teams-by-votes/discuss/525172/JavaScript-O(N)-Hash-Table)
 1367|**Linked List in Binary Tree**|[✔️](https://leetcode.com/problems/linked-list-in-binary-tree/discuss/525207/JavaScript-DFS-of-DFS)
+1374|**Generate a String With Characters That Have Odd Counts**|[✔️](https://leetcode.com/problems/generate-a-string-with-characters-that-have-odd-counts/discuss/532805/JavaScript-2-liner-O(N))
+1375|**Bulb Switcher III**|[✔️](https://leetcode.com/problems/bulb-switcher-iii/discuss/532794/JavaScript-Time-O(N)-Space-O(N))
