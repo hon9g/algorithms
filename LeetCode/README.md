@@ -121,3 +121,5 @@
 1367|**Linked List in Binary Tree**|[✔️](https://leetcode.com/problems/linked-list-in-binary-tree/discuss/525207/JavaScript-DFS-of-DFS)
 1374|**Generate a String With Characters That Have Odd Counts**|[✔️](https://leetcode.com/problems/generate-a-string-with-characters-that-have-odd-counts/discuss/532805/JavaScript-2-liner-O(N))
 1375|**Bulb Switcher III**|[✔️](https://leetcode.com/problems/bulb-switcher-iii/discuss/532794/JavaScript-Time-O(N)-Space-O(N))
+1380|**Lucky Numbers in a Matrix**|[✔️](https://leetcode.com/problems/lucky-numbers-in-a-matrix/discuss/540132/JavaScript-O(NN-%2B-NM)O(1))
+1381|**Design a Stack With Increment Operation**|[✔️](https://leetcode.com/problems/design-a-stack-with-increment-operation/discuss/540166/JavaScript-Lazy-increment-O(1)-Busy-increment-O(N))
