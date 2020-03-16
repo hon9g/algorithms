@@ -128,3 +128,4 @@
 1375|**Bulb Switcher III**|[✔️](https://leetcode.com/problems/bulb-switcher-iii/discuss/532794/JavaScript-Time-O(N)-Space-O(N))
 1380|**Lucky Numbers in a Matrix**|[✔️](https://leetcode.com/problems/lucky-numbers-in-a-matrix/discuss/540132/JavaScript-O(NN-%2B-NM)O(1))
 1381|**Design a Stack With Increment Operation**|[✔️](https://leetcode.com/problems/design-a-stack-with-increment-operation/discuss/540166/JavaScript-Lazy-increment-O(1)-Busy-increment-O(N))
+1382|**Balance a Binary Search Tree**|[✔️](https://leetcode.com/problems/balance-a-binary-search-tree/discuss/541682/JavaScript-In-order-traverse)
