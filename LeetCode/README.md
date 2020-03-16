@@ -28,6 +28,8 @@
 104|**Maximum Depth of Binary Tree**| [✔️](https://github.com/hon9g/algorithms/issues/28#issuecomment-593251114)
 105|**Construct Binary Tree from Preorder and Inorder Traversal**| [✔️](https://github.com/hon9g/algorithms/issues/28#issuecomment-593253608)
 106|**Construct Binary Tree from Inorder and Postorder Traversal**|[✔️](https://github.com/hon9g/algorithms/issues/28#issuecomment-593251895)
+108|**Convert Sorted Array to Binary Search Tree**|[✔️](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/discuss/541659/JavaScript-O(N)O(log-N))
+110|**Balanced Binary Tree**|[✔️](https://leetcode.com/problems/balanced-binary-tree/discuss/541645/JavaScript-Top-down-DFS)
 112|**Path Sum**| [✔️](https://github.com/hon9g/algorithms/issues/28#issuecomment-593251860)
 116|**Populating Next Right Pointers in Each Node**| [✔️](https://github.com/hon9g/algorithms/issues/28#issuecomment-593253650)
 117|**Populating Next Right Pointers in Each Node II**| [✔️](https://github.com/hon9g/algorithms/issues/28#issuecomment-593253668)
