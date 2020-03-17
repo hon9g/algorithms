@@ -2,9 +2,10 @@
 
 | # | problem | my solution |
 |:---:|:---:|:---:|
-1|**Two Sum**| [✔️](https://github.com/hon9g/algorithms/issues/26#issuecomment-583721284)
+1|**Two Sum**| [✔️](https://leetcode.com/problems/two-sum/discuss/511867/JS-Map-O(n))
 2|**Add Two Numbers**| [✔️](https://github.com/hon9g/algorithms/issues/27#issuecomment-589912890)
 3|**Longest Substring Without Repeating Characters**|[✔️](https://github.com/hon9g/algorithms/issues/26#issuecomment-587558793)
+8|**String to Integer (atoi)**|[✔️](https://leetcode.com/problems/string-to-integer-atoi/discuss/542343/JavaScript-with-and-without-parseInt())
 14| **Longest Common Prefix** | [✔️](https://github.com/hon9g/algorithms/issues/24#issuecomment-573751237)
 19|**Remove Nth Node From End of List**|[✔️](https://github.com/hon9g/algorithms/issues/27#issuecomment-589912870)
 20|**Valid Parentheses**| [✔️](https://github.com/hon9g/algorithms/issues/25#issuecomment-580611002)
@@ -70,6 +71,7 @@
 234|**Palindrome Linked List**| [✔️](https://github.com/hon9g/algorithms/issues/27#issuecomment-589912888)
 235|**Lowest Common Ancestor of a Binary Search Tree**|[✔️](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/discuss/541362/JavaScript-Iterative-Recursive)
 236|**Lowest Common Ancestor of a Binary Tree**| [✔️](https://github.com/hon9g/algorithms/issues/28#issuecomment-593253685)
+237|**Delete Node in a Linked List**|[✔️](https://leetcode.com/problems/delete-node-in-a-linked-list/discuss/542390/JavaScript-O(1))
 249|**Group Shifted Strings**| [✔️](https://github.com/hon9g/algorithms/issues/26#issuecomment-587553808)
 250|**Count Univalue Subtrees**|[✔️](https://github.com/hon9g/algorithms/issues/28#issuecomment-593251883)
 278|**First Bad Version**| [✔️](https://leetcode.com/problems/first-bad-version/discuss/535308/JavaScript-6-liner-Binary-Search)
@@ -90,6 +92,7 @@
 380|**Insert Delete GetRandom O(1)**| [✔️](https://github.com/hon9g/algorithms/issues/26#issuecomment-587558925)
 387|**First Unique Character in a String**| [✔️](https://github.com/hon9g/algorithms/issues/26#issuecomment-586411668)
 394|**Decode String**|[✔️](https://github.com/hon9g/algorithms/issues/25#issuecomment-582726413)
+412|**Fizz Buzz**|[✔️](https://leetcode.com/problems/fizz-buzz/discuss/542370/JavaScript-Short-solutions-Naive-String-concat)
 429|**N-ary Tree Level Order Traversal**| [✔️](https://github.com/hon9g/algorithms/issues/29#issuecomment-594437979)
 430|**Flatten a Multilevel Doubly Linked List**| [✔️](https://github.com/hon9g/algorithms/issues/27#issuecomment-589912895)
 450|**Delete Node in a BST**|[✔️](https://leetcode.com/problems/delete-node-in-a-bst/discuss/537818/JavaScript-recursive-solution-with-explanation)
