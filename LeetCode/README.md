@@ -148,4 +148,5 @@
 1386|**Cinema Seat Allocation**|[✔️](https://leetcode.com/problems/cinema-seat-allocation/discuss/546750/JavaScript-Hash-Map)
 1387|**Sort Integers by The Power Value**|[✔️](https://leetcode.com/problems/sort-integers-by-the-power-value/discuss/546768/JavaScript-Simple-Dynamic-Programming)
 1389|**Create Target Array in the Given Order**|[✔️](https://leetcode.com/problems/create-target-array-in-the-given-order/discuss/547544/JavaScript-simple-solution-with-splice)
-1390|**Four Divisors**|[✔️](https://leetcode.com/problems/four-divisors/discuss/547563/JavaScript-O(N-log-M))
+1390|**Four Divisors**|[✔️](https://leetcode.com/problems/four-divisors/discuss/547563/JavaScript-O(N-sqrt-M))
+1392|**Longest Happy Prefix**|[✔️](https://leetcode.com/problems/longest-happy-prefix/discuss/547911/JavaScript-Bruteforce)
