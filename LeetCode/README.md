@@ -151,5 +151,5 @@
 1390|**Four Divisors**|[✔️](https://leetcode.com/problems/four-divisors/discuss/547563/JavaScript-O(N-sqrt-M))
 1392|**Longest Happy Prefix**|[✔️](https://leetcode.com/problems/longest-happy-prefix/discuss/547911/JavaScript-Bruteforce)
 1394|**Find Lucky Integer in an Array**|[✔️](https://leetcode.com/problems/find-lucky-integer-in-an-array/discuss/554920/javascript-hash-map)
-1395|**Count Number of Teams**|[✔️](https://leetcode.com/problems/count-number-of-teams/discuss/554938/JavaScript-BruteForce)
+1395|**Count Number of Teams**|[✔️](https://leetcode.com/problems/count-number-of-teams/discuss/554938/JavaScript-DP-O(N2)-BruteForce-O(N3))
 1396|**Design Underground System**|[✔️](https://leetcode.com/problems/design-underground-system/discuss/554957/javascript-o1-for-all-methods)
