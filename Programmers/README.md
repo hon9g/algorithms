@@ -9,3 +9,4 @@ Kakao Officail Blog 문제 해설
 1.3|캐시|[✔️](https://allo-ew.tistory.com/105)
 1.4|셔틀버스|[✔️](https://allo-ew.tistory.com/107)
 1.5|뉴스 클러스터링|[✔️](https://allo-ew.tistory.com/108)
+1.6|프랜즈4블록|[✔️](https://allo-ew.tistory.com/109)
