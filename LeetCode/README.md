@@ -135,6 +135,7 @@
 771|**Jewels and Stones**| [✔️](https://github.com/hon9g/algorithms/issues/26#issuecomment-587553881)
 779|**K-th Symbol in Grammar**|[✔️](https://leetcode.com/problems/k-th-symbol-in-grammar/discuss/542513/JavaScript-O(log-N))
 841|**Keys and Rooms**|[✔️](https://github.com/hon9g/algorithms/issues/25#issuecomment-582758900)
+876|**Middle of the Linked List**|[✔️](https://leetcode.com/problems/middle-of-the-linked-list/discuss/569428/JavaScript-two-O(N)-solutions)
 904|**Fruit Into Baskets**|[✔️](https://leetcode.com/problems/fruit-into-baskets/discuss/534161/JavaScript-Sliding-Window)
 912|**Sort an Array**|[✔️](https://leetcode.com/problems/sort-an-array/discuss/543508/JavaScript-merge-sort)
 925|**Long Pressed Name**|[✔️](https://leetcode.com/problems/long-pressed-name/discuss/569367/JavaScript-Two-pointer-solution)
