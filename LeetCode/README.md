@@ -135,6 +135,7 @@
 771|**Jewels and Stones**| [✔️](https://github.com/hon9g/algorithms/issues/26#issuecomment-587553881)
 779|**K-th Symbol in Grammar**|[✔️](https://leetcode.com/problems/k-th-symbol-in-grammar/discuss/542513/JavaScript-O(log-N))
 841|**Keys and Rooms**|[✔️](https://github.com/hon9g/algorithms/issues/25#issuecomment-582758900)
+844|**Backspace String Compare**|[✔️](https://leetcode.com/problems/backspace-string-compare/discuss/573541/javascript-easy-to-understand-on-solution)
 876|**Middle of the Linked List**|[✔️](https://leetcode.com/problems/middle-of-the-linked-list/discuss/569428/JavaScript-two-O(N)-solutions)
 904|**Fruit Into Baskets**|[✔️](https://leetcode.com/problems/fruit-into-baskets/discuss/534161/JavaScript-Sliding-Window)
 912|**Sort an Array**|[✔️](https://leetcode.com/problems/sort-an-array/discuss/543508/JavaScript-merge-sort)
@@ -158,4 +159,5 @@
 1394|**Find Lucky Integer in an Array**|[✔️](https://leetcode.com/problems/find-lucky-integer-in-an-array/discuss/554920/javascript-hash-map)
 1395|**Count Number of Teams**|[✔️](https://leetcode.com/problems/count-number-of-teams/discuss/554938/JavaScript-DP-O(N2)-BruteForce-O(N3))
 1396|**Design Underground System**|[✔️](https://leetcode.com/problems/design-underground-system/discuss/554957/javascript-o1-for-all-methods)
+1408|**String Matching in an Array**|[✔️](https://leetcode.com/problems/string-matching-in-an-array/discuss/575020/javascript-filter-includes)
 ?|**Counting Element**|[✔️](https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/528/week-1/3289/discuss/568691/JavaScript-O(N-log-N)-with-sort-O(N)-with-HashSet)
