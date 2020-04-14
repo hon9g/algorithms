@@ -109,6 +109,7 @@
 494|**Target Sum**| [✔️](https://github.com/hon9g/algorithms/issues/25#issuecomment-582245012)
 498|**Diagonal Traverse** | [✔️](https://github.com/hon9g/algorithms/issues/24#issuecomment-573666146)
 509|**Fibonacci Number**|[✔️](https://leetcode.com/problems/fibonacci-number/discuss/542321/JavaScript-Recursion-with-simple-memoization)
+525|**Contiguous Array**|[✔️](https://leetcode.com/problems/contiguous-array/discuss/577353/JavaScript.-O(n)-and-O(n2)-solution)
 542|**01 Matrix**|[✔️](https://github.com/hon9g/algorithms/issues/25#issuecomment-582758889)
 557|**Reverse Words in a String III**|  [✔️](https://github.com/hon9g/algorithms/issues/24#issuecomment-574772594)
 561|**Array Partition I** | [✔️](https://github.com/hon9g/algorithms/issues/24#issuecomment-574168408)
@@ -160,4 +161,5 @@
 1395|**Count Number of Teams**|[✔️](https://leetcode.com/problems/count-number-of-teams/discuss/554938/JavaScript-DP-O(N2)-BruteForce-O(N3))
 1396|**Design Underground System**|[✔️](https://leetcode.com/problems/design-underground-system/discuss/554957/javascript-o1-for-all-methods)
 1408|**String Matching in an Array**|[✔️](https://leetcode.com/problems/string-matching-in-an-array/discuss/575020/javascript-filter-includes)
+1410|**HTML Entity Parser**|[✔️](https://leetcode.com/problems/html-entity-parser/discuss/575074/JavaScript-surprisingly-not-straigtward/500453)
 ?|**Counting Element**|[✔️](https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/528/week-1/3289/discuss/568691/JavaScript-O(N-log-N)-with-sort-O(N)-with-HashSet)
