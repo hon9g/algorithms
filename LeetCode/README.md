@@ -167,6 +167,8 @@
 1396|**Design Underground System**|[✔️](https://leetcode.com/problems/design-underground-system/discuss/554957/javascript-o1-for-all-methods)
 1408|**String Matching in an Array**|[✔️](https://leetcode.com/problems/string-matching-in-an-array/discuss/575020/javascript-filter-includes)
 1410|**HTML Entity Parser**|[✔️](https://leetcode.com/problems/html-entity-parser/discuss/575074/JavaScript-surprisingly-not-straigtward/500453)
+1413|**Minimum Value to Get Positive Step by Step Sum**|[✔️](https://leetcode.com/problems/minimum-value-to-get-positive-step-by-step-sum/discuss/585707/JavaScript-O(n))
+1415|**The k-th Lexicographical String of All Happy Strings of Length n**|[✔️](https://leetcode.com/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/discuss/?currentPage=1&orderBy=most_relevant&query=javascript)
 ?|**Counting Element**|[✔️](https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/528/week-1/3289/discuss/568691/JavaScript-O(N-log-N)-with-sort-O(N)-with-HashSet)
 ?|**Perform String Shifts**|[✔️](https://leetcode.com/explore/other/card/30-day-leetcoding-challenge/529/week-2/3299/discuss/580671/JavaScript-O(n-+-m)-6-lines)
 ?|**Product of Array Except Self**|[✔️](https://leetcode.com/explore/other/card/30-day-leetcoding-challenge/530/week-3/3300/discuss/581127/JavaScript-space-O(1)-solution)
