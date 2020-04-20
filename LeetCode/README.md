@@ -25,6 +25,7 @@
 53|**Maximum Subarray**|[✔️](https://leetcode.com/problems/maximum-subarray/discuss/557885/javaScript-DP)
 54| **Spiral Matrix** |  [✔️](https://github.com/hon9g/algorithms/issues/24#issuecomment-573666463)
 61|**Rotate List**| [✔️](https://github.com/hon9g/algorithms/issues/27#issuecomment-589912910)
+64|**Minimum Path Sum**| [✔️](https://leetcode.com/problems/minimum-path-sum/discuss/588432/JavaScript-DP-O(mn)-Iterative)
 66| **Plus One** | [✔️](https://github.com/hon9g/algorithms/issues/24#issuecomment-573636502)
 67| **Add Binary** | [✔️](https://github.com/hon9g/algorithms/issues/24#issuecomment-573667526)
 69|**Sqrt(x)**|[✔️](https://leetcode.com/problems/sqrtx/discuss/534320/JavaScript-Binary-Search)
