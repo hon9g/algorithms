@@ -117,6 +117,7 @@
 525|**Contiguous Array**|[✔️](https://leetcode.com/problems/contiguous-array/discuss/577353/JavaScript.-O(n)-and-O(n2)-solution)
 542|**01 Matrix**|[✔️](https://github.com/hon9g/algorithms/issues/25#issuecomment-582758889)
 557|**Reverse Words in a String III**|  [✔️](https://github.com/hon9g/algorithms/issues/24#issuecomment-574772594)
+560|**Subarray Sum Equals K**| [✔️](https://leetcode.com/problems/subarray-sum-equals-k/discuss/593566/JavaScript-O(n2)-cumulative-sum)
 561|**Array Partition I** | [✔️](https://github.com/hon9g/algorithms/issues/24#issuecomment-574168408)
 589|**N-ary Tree Preorder Traversal**| [✔️](https://github.com/hon9g/algorithms/issues/29#issuecomment-594436205)
 590|**N-ary Tree Postorder Traversal**| [✔️](https://github.com/hon9g/algorithms/issues/29#issuecomment-594437953)
