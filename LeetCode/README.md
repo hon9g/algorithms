@@ -102,6 +102,7 @@
 374|**Guess Number Higher or Lower**|[✔️](https://leetcode.com/problems/guess-number-higher-or-lower/discuss/534371/Python-Binary-Search-and-Ternary-Search)
 380|**Insert Delete GetRandom O(1)**| [✔️](https://github.com/hon9g/algorithms/issues/26#issuecomment-587558925)
 387|**First Unique Character in a String**| [✔️](https://github.com/hon9g/algorithms/issues/26#issuecomment-586411668)
+388|**Longest Absolute File Path**| [✔️](https://leetcode.com/problems/longest-absolute-file-path/discuss/594016/JavaScript-8-lines-using-.reduce())
 394|**Decode String**|[✔️](https://github.com/hon9g/algorithms/issues/25#issuecomment-582726413)
 412|**Fizz Buzz**|[✔️](https://leetcode.com/problems/fizz-buzz/discuss/542370/JavaScript-Short-solutions-Naive-String-concat)
 429|**N-ary Tree Level Order Traversal**| [✔️](https://github.com/hon9g/algorithms/issues/29#issuecomment-594437979)
