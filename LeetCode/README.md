@@ -152,6 +152,7 @@
 912|**Sort an Array**|[✔️](https://leetcode.com/problems/sort-an-array/discuss/543508/JavaScript-merge-sort)
 925|**Long Pressed Name**|[✔️](https://leetcode.com/problems/long-pressed-name/discuss/569367/JavaScript-Two-pointer-solution)
 929|**Unique Email Addresses**|[✔️](https://leetcode.com/problems/unique-email-addresses/discuss/534125/JavaScript-4-lines-2-solutions)
+1021|**Remove Outermost Parentheses**|[✔️](https://leetcode.com/problems/remove-outermost-parentheses/discuss/596925/JavaScript-7-12-lines-O(n)-time)
 1051|**Height Checker**|[✔️](https://leetcode.com/problems/height-checker/discuss/569346/JavaScript-O(n-log-n)-with-sorting-O(n)-with-counting)
 1360|**Number of Days Between Two Dates**|[✔️](https://leetcode.com/problems/number-of-days-between-two-dates/discuss/518189/40-ms-faster-than-100.00-of-JS-2-lines)[✔️](https://leetcode.com/problems/number-of-days-between-two-dates/discuss/518248/Readable-Hard-Code-JS)
 1366|**Rank Teams by Votes**|[✔️](https://leetcode.com/problems/rank-teams-by-votes/discuss/525172/JavaScript-O(N)-Hash-Table)
