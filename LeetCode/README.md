@@ -47,6 +47,7 @@
 118|**Pascal's Triangle** | [✔️](https://github.com/hon9g/algorithms/issues/24#issuecomment-573666829)
 119|**Pascal's Triangle II**|[✔️](https://leetcode.com/problems/pascals-triangle-ii/discuss/542317/JavaScript-recursion-O(K2))
 122|**Best Time to Buy and Sell Stock II**| [✔️](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/discuss/520289/48ms-98.75-of-JS)
+124|**Binary Tree Maximum Path Sum**|[✔️](https://leetcode.com/problems/binary-tree-maximum-path-sum/discuss/606362/JavaScript-10-lines-DFS)
 133|**Clone Graph**|[✔️](https://github.com/hon9g/algorithms/issues/25#issuecomment-581778667)
 136|**Single Number**| [✔️](https://github.com/hon9g/algorithms/issues/26#issuecomment-583719906)
 138|**Copy List with Random Pointer**| [✔️](https://github.com/hon9g/algorithms/issues/27#issuecomment-589912904)
@@ -185,3 +186,4 @@
 ?|**Perform String Shifts**|[✔️](https://leetcode.com/explore/other/card/30-day-leetcoding-challenge/529/week-2/3299/discuss/580671/JavaScript-O(n-+-m)-6-lines)
 ?|**Product of Array Except Self**|[✔️](https://leetcode.com/explore/other/card/30-day-leetcoding-challenge/530/week-3/3300/discuss/581127/JavaScript-space-O(1)-solution)
 ?|**Leftmost Column with at Least a One**|[✔️](https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/530/week-3/3306/discuss/592426/JavaScript-O(n-log-m)-binary-search)
+c3315|**Check If a String Is a Valid Sequence from Root to Leaves Path in a Binary Tree**|[✔️](https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/532/week-5/3315/discuss/606311/JavaScript-O(n)-backtrack)
