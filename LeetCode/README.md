@@ -104,6 +104,7 @@
 359|**Logger Rate Limiter**| [✔️](https://github.com/hon9g/algorithms/issues/26#issuecomment-586414606)
 374|**Guess Number Higher or Lower**|[✔️](https://leetcode.com/problems/guess-number-higher-or-lower/discuss/534371/Python-Binary-Search-and-Ternary-Search)
 380|**Insert Delete GetRandom O(1)**| [✔️](https://github.com/hon9g/algorithms/issues/26#issuecomment-587558925)
+383|**Ransom Note**|[✔️](https://leetcode.com/problems/ransom-note/discuss/610446/JavaScript-O(m)-using-1-Hash-Map)
 387|**First Unique Character in a String**| [✔️](https://github.com/hon9g/algorithms/issues/26#issuecomment-586411668)
 388|**Longest Absolute File Path**| [✔️](https://leetcode.com/problems/longest-absolute-file-path/discuss/594016/JavaScript-8-lines-using-.reduce())
 394|**Decode String**|[✔️](https://github.com/hon9g/algorithms/issues/25#issuecomment-582726413)
