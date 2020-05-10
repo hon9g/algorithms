@@ -103,6 +103,7 @@
 349|**Intersection of Two Arrays**| [✔️](https://github.com/hon9g/algorithms/issues/26#issuecomment-583719909)
 350|**Intersection of Two Arrays II**| [✔️](https://github.com/hon9g/algorithms/issues/26#issuecomment-586414551)
 359|**Logger Rate Limiter**| [✔️](https://github.com/hon9g/algorithms/issues/26#issuecomment-586414606)
+367|**Valid Perfect Square**[✔️](https://leetcode.com/problems/valid-perfect-square/discuss/622108/JavaScript-1-line-O(1)-time-and-9-lines-O(log-n)-time)
 374|**Guess Number Higher or Lower**|[✔️](https://leetcode.com/problems/guess-number-higher-or-lower/discuss/534371/Python-Binary-Search-and-Ternary-Search)
 380|**Insert Delete GetRandom O(1)**| [✔️](https://github.com/hon9g/algorithms/issues/26#issuecomment-587558925)
 383|**Ransom Note**|[✔️](https://leetcode.com/problems/ransom-note/discuss/610446/JavaScript-O(m)-using-1-Hash-Map)
