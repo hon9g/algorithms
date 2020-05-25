@@ -1,3 +1,11 @@
+## 코딩테스트연습 - 해시
+#|title|my solution
+:---:|:---:|:---:
+1|완주하지 못한 선수|[✔️](https://allo-ew.tistory.com/113)
+2|전화번호 목록|[✔️](https://allo-ew.tistory.com/113)
+3|위장|[✔️](https://allo-ew.tistory.com/113)
+4|베스트 앨범|[✔️](https://allo-ew.tistory.com/113)
+
 ## 2018 카카오 블라인드 코딩테스트
 Kakao Officail Blog 문제 해설
 - [1차](https://tech.kakao.com/2017/09/27/kakao-blind-recruitment-round-1/)
