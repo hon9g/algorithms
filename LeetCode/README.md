@@ -31,6 +31,7 @@
 67| **Add Binary** | [✔️](https://github.com/hon9g/algorithms/issues/24#issuecomment-573667526)
 69|**Sqrt(x)**|[✔️](https://leetcode.com/problems/sqrtx/discuss/534320/JavaScript-Binary-Search)
 70|**Climbing Stairs**|[✔️](https://leetcode.com/problems/climbing-stairs/discuss/542325/JavaScript-recursion-with-simple-memoization)
+75|**Sort Colors**|[✔️](https://leetcode.com/problems/sort-colors/discuss/683155/JavaScript-O(n)-1-pass-and-2-pass)
 94|**Binary Tree Inorder Traversal**| [✔️](https://leetcode.com/problems/binary-tree-inorder-traversal/discuss/527791/JavaScript-10-lines-Iterative-and-Recursive)
 98|**Validate Binary Search Tree**|[✔️](https://leetcode.com/problems/validate-binary-search-tree/discuss/537898/JavaScript-Iterative-Recursive)
 100|**Same Tree**|[✔️](https://leetcode.com/problems/same-tree/discuss/543621/JavaScript-recursion-iterative)
