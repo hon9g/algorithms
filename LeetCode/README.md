@@ -96,6 +96,7 @@
 285|**Inorder Successor in BST**|[✔️](https://leetcode.com/problems/inorder-successor-in-bst/discuss/537833/JavaScript-simple-In-order-solution)
 286|**Walls and Gates**| [✔️](https://github.com/hon9g/algorithms/issues/25#issuecomment-578010009)
 288|**Unique Word Abbreviation**|[✔️](https://github.com/hon9g/algorithms/issues/26#issuecomment-587558903)
+292|**Nim Game**|[✔️](https://leetcode.com/problems/nim-game/discuss/688742/JavaScript-1-liner-with-expaination)
 297|**Serialize and Deserialize Binary Tree**| [✔️](https://github.com/hon9g/algorithms/issues/28#issuecomment-593253708)
 303|**Range Sum Query - Immutable**| [✔️](https://leetcode.com/problems/range-sum-query-immutable/discuss/582647/JavaScript-cumulative-sum)
 326|**Power of Three**|[✔️](https://leetcode.com/problems/power-of-three/discuss/683442/JavaScript-O(1)-and-O(log3-n)-solution)
