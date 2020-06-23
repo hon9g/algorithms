@@ -16,6 +16,11 @@
 5|쇠막대기|[✔️](https://allo-ew.tistory.com/114)
 6|주식가격|[✔️](https://allo-ew.tistory.com/114)
 
+## 완전탐색
+#|title|my solution
+:---:|:---:|:---:
+2|소수 찾기|[✔️](https://allo-ew.tistory.com/115)
+
 ## 2018 카카오 블라인드 코딩테스트
 Kakao Officail Blog 문제 해설
 - [1차](https://tech.kakao.com/2017/09/27/kakao-blind-recruitment-round-1/)
