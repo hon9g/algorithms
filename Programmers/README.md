@@ -20,6 +20,8 @@
 #|title|my solution
 :---:|:---:|:---:
 2|소수 찾기|[✔️](https://allo-ew.tistory.com/115)
+3|숫자 야구|[✔️](https://allo-ew.tistory.com/116)
+4|카펫|[✔️](https://allo-ew.tistory.com/117)
 
 ## 2018 카카오 블라인드 코딩테스트
 Kakao Officail Blog 문제 해설
