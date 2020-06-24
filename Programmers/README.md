@@ -23,6 +23,14 @@
 3|숫자 야구|[✔️](https://allo-ew.tistory.com/116)
 4|카펫|[✔️](https://allo-ew.tistory.com/117)
 
+## 다이나믹 프로그래밍
+#|title|my solution
+:---:|:---:|:---:
+1|N으로 표현|[✔️](https://allo-ew.tistory.com/118)
+2|타일 장식물|[✔️](https://allo-ew.tistory.com/119)
+3|정수 삼각형|[✔️](https://allo-ew.tistory.com/120)
+4|등굣길|[✔️](https://allo-ew.tistory.com/121)
+
 ## 2018 카카오 블라인드 코딩테스트
 Kakao Officail Blog 문제 해설
 - [1차](https://tech.kakao.com/2017/09/27/kakao-blind-recruitment-round-1/)
