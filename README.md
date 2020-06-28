@@ -176,6 +176,19 @@ def quickSort(self, nums: List[int]) -> List[int]:
     return self.quickSort(lower)+ same + self.quickSort(higher)
 ```
 
+```JavaScript
+const quickSort = (nums) => {
+    if (nums.length < 2) {
+        return nums
+    }
+    const pivot = nums[0]
+    const less = nums.filter(x => x < pivot)
+    const greater = nums.filter(x => x > pivot)
+    const same = nums.filter(x => x === pivot)
+    return [...quickSort(less), ...same, ...quickSort(greater)]
+}
+```
+
 ## Merge Sort
 
 || time complexity | space complexity |
@@ -199,6 +212,27 @@ def mergeSort(self, nums: List[int]) -> List[int]:
     res = res + a[i:] if i < len(a) else res
     res = res + b[j:] if j < len(b) else res
     return res
+```
+```JavaScript
+const mergeSort = (nums) => {
+    if (nums.length < 2) {
+        return nums
+    }
+    const mid = Math.floor(nums.length/2)
+    const [a, b] = [mergeSort(nums.slice(0, mid)), mergeSort(nums.slice(mid))]
+    const sortedNums = []
+    let i = 0, j = 0
+    while (i < a.length && j < b.length) {
+        sortedNums.push(a[i] < b[j] ? a[i++] : b[j++])
+    }
+    while (i < a.length) {
+        sortedNums.push(a[i++])
+    }
+    while (j < b.length) {
+        sortedNums.push(b[j++])
+    }
+    return sortedNums
+}
 ```
 
 ## Bubble Sort
