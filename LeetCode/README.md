@@ -21,7 +21,7 @@
 36|**Valid Sudoku**| [✔️](https://github.com/hon9g/algorithms/issues/26#issuecomment-587553835)
 37|**Sudoku Solver**|[✔️](https://leetcode.com/problems/sudoku-solver/discuss/546365/JavaScript-backtracking)
 49|**Group Anagrams**| [✔️](https://github.com/hon9g/algorithms/issues/26#issuecomment-586414634)
-50|**Pow(x, n)**|[✔️](https://leetcode.com/problems/powx-n/discuss/542477/JavaScript-O(log-N))
+50|**Pow(x, n)**|[✔️](https://leetcode.com/problems/powx-n/discuss/542477/JavaScript-O(log2-N))
 52|**N-Queens II**|[✔️](https://leetcode.com/problems/n-queens-ii/discuss/544297/JavaScript-48ms-backtracking)
 53|**Maximum Subarray**|[✔️](https://leetcode.com/problems/maximum-subarray/discuss/557885/javaScript-DP)
 54| **Spiral Matrix** |  [✔️](https://github.com/hon9g/algorithms/issues/24#issuecomment-573666463)
