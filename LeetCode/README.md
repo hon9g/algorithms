@@ -54,7 +54,7 @@
 133|**Clone Graph**|[✔️](https://github.com/hon9g/algorithms/issues/25#issuecomment-581778667)
 136|**Single Number**| [✔️](https://github.com/hon9g/algorithms/issues/26#issuecomment-583719906)
 138|**Copy List with Random Pointer**| [✔️](https://github.com/hon9g/algorithms/issues/27#issuecomment-589912904)
-141|**Linked List Cycle**|[✔️](https://github.com/hon9g/algorithms/issues/27#issuecomment-589912860)
+141|**Linked List Cycle**|[✔️](https://github.com/hon9g/algorithms/issues/27#issuecomment-589912860) [✔️](https://leetcode.com/problems/linked-list-cycle/discuss/1639985/O(1)-Space-solution-with-easy-explaination)
 142|**Linked List Cycle II**|[✔️](https://github.com/hon9g/algorithms/issues/27#issuecomment-589912865)
 144|**Binary Tree Preorder Traversal**| [✔️](https://github.com/hon9g/algorithms/issues/28#issuecomment-593251038)
 145|**Binary Tree Postorder Traversal**| [✔️](https://github.com/hon9g/algorithms/issues/28#issuecomment-593251081)
