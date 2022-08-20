@@ -49,6 +49,7 @@
 117|**Populating Next Right Pointers in Each Node II**| [✔️](https://github.com/hon9g/algorithms/issues/28#issuecomment-593253668)
 118|**Pascal's Triangle** | [✔️](https://github.com/hon9g/algorithms/issues/24#issuecomment-573666829)
 119|**Pascal's Triangle II**|[✔️](https://leetcode.com/problems/pascals-triangle-ii/discuss/542317/JavaScript-recursion-O(K2))
+121|**Best Time to Buy and Sell Stock**|[✔️](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/discuss/2451211/Simple-Solution-Time-O(N)-Space-O(1)-7lines)
 122|**Best Time to Buy and Sell Stock II**| [✔️](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/discuss/520289/48ms-98.75-of-JS)
 124|**Binary Tree Maximum Path Sum**|[✔️](https://leetcode.com/problems/binary-tree-maximum-path-sum/discuss/606362/JavaScript-10-lines-DFS)
 133|**Clone Graph**|[✔️](https://github.com/hon9g/algorithms/issues/25#issuecomment-581778667)
