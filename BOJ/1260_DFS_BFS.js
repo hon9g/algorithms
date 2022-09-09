@@ -31,7 +31,7 @@ class Graph {
     /** Sort graph */
     sort() {
         for (let i = 1; i < this.list.length; i++) {
-            this.list[i].sort()
+            this.list[i].sort((a, b) => a - b)
         }
     }
 }
