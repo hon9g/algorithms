@@ -8,12 +8,12 @@ let idx = 0
 let count = 0
 
 while (idx < input.length) {
-  if (alphabets.has(input.substring(idx, idx + 2))) {
+  if (alphabets.has(`${input[idx]}${input[idx+1]}`)) {
     idx += 2
     count++
     continue
   }
-  if (alphabets.has(input.substring(idx, idx + 3))) {
+  if (alphabets.has(`${input[idx]}${input[idx+1]}${input[idx+2]}`)) {
     idx += 3
     count++
     continue
