@@ -8,7 +8,7 @@ const sequence = []
 
 const backtrack = (N, M, result) => {
   if (result.length === M) {
-    sequence.push(result)
+    sequence.push(result.join(' '))
     return
   }
   for (let n = 1; n <= N; n++) {
@@ -18,7 +18,5 @@ const backtrack = (N, M, result) => {
 
 backtrack(N, M, [])
 
-
-for (const result of sequence) {
-  console.log(result.join(' '))
-}
+const sequenceOutfit = sequence.join('\n')
+console.log(sequenceOutfit);
